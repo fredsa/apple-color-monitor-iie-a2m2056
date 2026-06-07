@@ -1,0 +1,244 @@
+(footprint "_SchotkyDiode_P10mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Diode, 5W series, Axial, Horizontal, pin pitch=12.7mm, length*diameter=8.9*3.7mm^2, http://www.diodes.com/_files/packages/8686949.gif")
+	(tags "Diode 5W series Axial Horizontal pin pitch 12.7mm  length 8.9mm diameter 3.7mm")
+	(property "Reference" "D"
+		(at 4.5 2.5 180)
+		(layer "F.SilkS")
+		(uuid "8472da77-7dca-4c7d-8518-2653ea5a7a88")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "D_Schottky"
+		(at 6.35 2.97 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9c2c2cae-0495-42dd-9d8c-2baec37774fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "84029a8a-7fd4-4395-8fd8-613dc16521e3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Schottky diode"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "679f3394-1801-41e6-92e7-c74f3b0fe2d5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "KiLib_Generator" "diode/THT"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2698e404-cd44-40f4-bc32-de1fe11fd525")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Field5" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "93d20386-a61c-41f9-be58-4003ca5388fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
+	(sheetname "/")
+	(sheetfile "apple-color-monitor-iie-a2m2056.kicad_sch")
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 4.5 1.5)
+		(end 4.5 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "799405f2-7fb5-45f2-901d-08250ef298ed")
+	)
+	(fp_line
+		(start 5 -1.5)
+		(end 5.5 -1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7d4f3b07-8412-4396-b8b4-32ac3633e1e7")
+	)
+	(fp_line
+		(start 5 0)
+		(end 2 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "13ac29e1-f8c9-4280-9de5-c4af40a09a09")
+	)
+	(fp_line
+		(start 5 0)
+		(end 6 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "90e6ff8f-8e76-42af-bf42-2aa8e75fd4a4")
+	)
+	(fp_line
+		(start 5 1.5)
+		(end 4.5 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a93d9b08-1ea6-4c5a-9d2c-b79a426415df")
+	)
+	(fp_line
+		(start 5 1.5)
+		(end 5 -1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "abe43933-4cd1-4daa-9534-b7212f52a299")
+	)
+	(fp_line
+		(start 5.5 -1.5)
+		(end 5.5 -1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "90c5c08a-8b88-4c90-a162-15ff0bd9d741")
+	)
+	(fp_line
+		(start 6 -1)
+		(end 5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ca8909ab-48c9-41e3-ba4c-789d0b523a9d")
+	)
+	(fp_line
+		(start 6 0)
+		(end 8 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "69ddc7af-3957-469e-97b4-26722d0ef979")
+	)
+	(fp_line
+		(start 6 1)
+		(end 6 -1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "078a2936-1d29-4ded-80a0-d47409ce74f6")
+	)
+	(fp_rect
+		(start -2 -2)
+		(end 12 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "37b0154f-ed63-4bc9-ac22-4b5e2f3cdff6")
+	)
+	(fp_line
+		(start 10 0)
+		(end 0 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b15c4ae4-ccdc-42c9-84af-a9f459f2ecb5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5 0 180)
+		(layer "F.Fab")
+		(uuid "c2478d36-4e7a-4296-9a73-a2d728e5d8ff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 2.8 2.8)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.089286)
+		(uuid "41d6214e-0d3c-4fba-8f9f-20188556a149")
+	)
+	(pad "2" thru_hole circle
+		(at 10 0)
+		(size 2.8 2.8)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "68165a25-bdaa-4b43-a988-5a7e8330c02d")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Diode_THT.3dshapes/D_5W_P12.70mm_Horizontal.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

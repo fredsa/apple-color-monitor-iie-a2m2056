@@ -10,6 +10,159 @@
 		(comment 1 "Reverse engineered by Fred Sauer, 2026")
 	)
 	(lib_symbols
+		(symbol "-my-symbols:-testpoint"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "X"
+				(at 0.6579 1.0689 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "-testpoint"
+				(at -0.6349 -1.27 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "Connector_Pin:Pin_D1.0mm_L10.0mm"
+				(at 0 -4.572 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Testpoint connector"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "-testpoint_1_1"
+				(circle
+					(center 0.635 1.143)
+					(radius 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "TP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "TP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Analog_Switch:CD4053B"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -8973,30 +9126,6 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 2.54) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 1.27 -7.62) (xy 2.54 -7.62)
 					)
 					(stroke
@@ -9010,6 +9139,30 @@
 				(polyline
 					(pts
 						(xy 1.27 -12.7) (xy 2.54 -12.7)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -21.59) (xy 2.54 -21.59)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -35.56) (xy 2.54 -35.56)
 					)
 					(stroke
 						(width 0)
@@ -9308,11 +9461,131 @@
 						(type none)
 					)
 				)
+				(arc
+					(start 1.1246 -16.534)
+					(mid 0.4923 -15.899)
+					(end 1.1246 -15.264)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.1246 -17.804)
+					(mid 0.4923 -17.169)
+					(end 1.1246 -16.534)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.1246 -19.074)
+					(mid 0.4923 -18.439)
+					(end 1.1246 -17.804)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.1246 -20.344)
+					(mid 0.4923 -19.709)
+					(end 1.1246 -19.074)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(circle
 					(center 1.143 6.985)
 					(radius 0.127)
 					(stroke
 						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.1573 -21.5993)
+					(mid 0.525 -20.9643)
+					(end 1.1573 -20.3293)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.1573 -22.8693)
+					(mid 0.525 -22.2343)
+					(end 1.1573 -21.5993)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.1621 -31.7516)
+					(mid 0.5298 -31.1166)
+					(end 1.1621 -30.4816)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.1621 -33.0216)
+					(mid 0.5298 -32.3866)
+					(end 1.1621 -31.7516)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.1621 -34.2916)
+					(mid 0.5298 -33.6566)
+					(end 1.1621 -33.0216)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.1621 -35.5616)
+					(mid 0.5298 -34.9266)
+					(end 1.1621 -34.2916)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -9359,6 +9632,102 @@
 					(start 1.1817 -12.704)
 					(mid 0.5494 -12.069)
 					(end 1.1817 -11.434)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.2022 -29.1938)
+					(mid 0.5699 -28.5588)
+					(end 1.2022 -27.9238)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.2022 -30.4638)
+					(mid 0.5699 -29.8288)
+					(end 1.2022 -29.1938)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.2129 -13.99)
+					(mid 0.5806 -13.355)
+					(end 1.2129 -12.72)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.2129 -15.26)
+					(mid 0.5806 -14.625)
+					(end 1.2129 -13.99)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.2249 -24.1286)
+					(mid 0.5926 -23.4936)
+					(end 1.2249 -22.8586)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.2249 -25.3986)
+					(mid 0.5926 -24.7636)
+					(end 1.2249 -24.1286)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.2249 -26.6686)
+					(mid 0.5926 -26.0336)
+					(end 1.2249 -25.3986)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.2249 -27.9386)
+					(mid 0.5926 -27.3036)
+					(end 1.2249 -26.6686)
 					(stroke
 						(width 0)
 						(type default)
@@ -9830,7 +10199,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 2.54 180)
+					(at 5.08 -7.62 180)
 					(length 2.54)
 					(name ""
 						(effects
@@ -9866,7 +10235,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -2.54 180)
+					(at 5.08 -12.7 180)
 					(length 2.54)
 					(name ""
 						(effects
@@ -9884,7 +10253,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -7.62 180)
+					(at 5.08 -21.59 180)
 					(length 2.54)
 					(name ""
 						(effects
@@ -9902,7 +10271,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -12.7 180)
+					(at 5.08 -35.56 180)
 					(length 2.54)
 					(name ""
 						(effects
@@ -10377,7 +10746,13 @@
 		(uuid "0942f76e-e83c-40dc-878a-c79eae1e9d1c")
 	)
 	(junction
-		(at 538.48 93.98)
+		(at 508 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0aa262c1-2e0d-4dbd-bed7-0a4159fca6a0")
+	)
+	(junction
+		(at 538.48 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0aba7c19-c1cf-4c05-94c0-13e3497f52f8")
@@ -10449,22 +10824,22 @@
 		(uuid "2aeb58c1-e0ba-4bc2-ae5f-4fbfdd78a3aa")
 	)
 	(junction
-		(at 509.27 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2e7e98fb-948a-4079-951b-96c94df18491")
-	)
-	(junction
 		(at 237.49 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2ff31073-21f6-45f9-9e78-32ebc74b9397")
 	)
 	(junction
-		(at 535.94 101.6)
+		(at 535.94 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "30688e41-8129-420a-a36d-961f4a9501d7")
+	)
+	(junction
+		(at 473.71 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "311c6358-8f5c-4ca5-a0a6-3bb8c7e2c4ee")
 	)
 	(junction
 		(at 382.27 212.09)
@@ -10509,12 +10884,6 @@
 		(uuid "427b586f-f333-4cac-97d5-d335a3c70ee4")
 	)
 	(junction
-		(at 508 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "438b43d3-2952-4161-b1ef-e7d26b37ea41")
-	)
-	(junction
 		(at 168.91 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10543,12 +10912,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4a36a4da-ae6f-4a3d-ae8e-0c46fbe79ac5")
-	)
-	(junction
-		(at 473.71 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4b0a7def-bac8-40ef-b08a-1dd30b551ec0")
 	)
 	(junction
 		(at 454.66 86.36)
@@ -10635,10 +10998,10 @@
 		(uuid "83992d47-b1a8-4076-ad73-fd094b54caf5")
 	)
 	(junction
-		(at 358.14 233.68)
+		(at 487.68 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8c475712-13b6-4727-a9a8-d673c35b5ef3")
+		(uuid "9346cddf-bcfe-4407-9f91-048c7426ca55")
 	)
 	(junction
 		(at 303.53 133.35)
@@ -10665,13 +11028,19 @@
 		(uuid "9af30bf0-6bf8-420e-aa71-eec839fbdfe2")
 	)
 	(junction
+		(at 510.54 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d5bdd96-025c-4038-a00b-7a51aa0a00e5")
+	)
+	(junction
 		(at 237.49 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a74944f1-8476-41d6-a919-12013044ec26")
 	)
 	(junction
-		(at 535.94 93.98)
+		(at 535.94 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a77f4a4c-32b4-46ae-b4dd-623f89b463b7")
@@ -10695,16 +11064,34 @@
 		(uuid "b0afdd1f-a4d5-4435-8fc3-bc6224b533c6")
 	)
 	(junction
+		(at 506.73 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b11546ee-9b1c-48bc-b1d5-0e3443f6ae2c")
+	)
+	(junction
 		(at 68.58 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b16db895-05eb-41b7-8c20-681ae746261c")
 	)
 	(junction
+		(at 525.78 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b57b8387-e6cb-47b9-9fe2-be2dc4833834")
+	)
+	(junction
 		(at 133.35 212.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b5ebefe7-72df-48ba-bb0c-b928506af09a")
+	)
+	(junction
+		(at 506.73 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9d2c36d-70dd-462a-930f-43b7b8557658")
 	)
 	(junction
 		(at 393.7 45.72)
@@ -10743,12 +11130,6 @@
 		(uuid "d0becfcc-6657-4bdb-bc86-c0b6f3657421")
 	)
 	(junction
-		(at 439.42 187.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d77e6608-a196-4908-97c2-680eb04fc68a")
-	)
-	(junction
 		(at 83.82 236.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10767,22 +11148,22 @@
 		(uuid "e10d7ded-a514-4281-a518-b4e5e2743d57")
 	)
 	(junction
+		(at 525.78 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4dc3f69-e8b0-4d07-b5a5-c985af7649d6")
+	)
+	(junction
 		(at 468.63 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e52773ee-db61-4631-8ab6-bbd9c13f6343")
 	)
 	(junction
-		(at 532.13 93.98)
+		(at 532.13 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e6e4de9c-609e-4374-8b00-97630a284ae5")
-	)
-	(junction
-		(at 509.27 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e73138e7-810d-4422-985f-9a734de232be")
 	)
 	(junction
 		(at 52.07 236.22)
@@ -10821,6 +11202,18 @@
 		(uuid "f007b2d6-8570-4ab7-ad18-af42f59a1c52")
 	)
 	(junction
+		(at 551.18 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa600ba4-1380-4843-83ad-0c1682dbabef")
+	)
+	(junction
+		(at 487.68 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd76e8c7-5545-4fbe-a0f0-abbb72cdd39f")
+	)
+	(junction
 		(at 199.39 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10834,7 +11227,7 @@
 	)
 	(wire
 		(pts
-			(xy 605.79 93.98) (xy 605.79 233.68)
+			(xy 605.79 124.46) (xy 605.79 233.68)
 		)
 		(stroke
 			(width 0)
@@ -10854,13 +11247,23 @@
 	)
 	(wire
 		(pts
-			(xy 506.73 82.55) (xy 509.27 82.55)
+			(xy 506.73 92.71) (xy 525.78 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "028b1952-85a5-40ab-a2c8-211712307c1b")
+	)
+	(wire
+		(pts
+			(xy 551.18 116.84) (xy 551.18 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03cea59a-8115-48f5-a9c1-fb3f2c81a5d9")
 	)
 	(wire
 		(pts
@@ -10871,6 +11274,16 @@
 			(type default)
 		)
 		(uuid "04a82b3b-bfe6-4561-908f-48ea63521962")
+	)
+	(wire
+		(pts
+			(xy 525.78 124.46) (xy 532.13 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04b17e4f-b6d3-405c-9a05-80e03cca453a")
 	)
 	(wire
 		(pts
@@ -10901,6 +11314,16 @@
 			(type default)
 		)
 		(uuid "06cf6aea-b5f8-4b68-8083-d6dbf6399cc4")
+	)
+	(wire
+		(pts
+			(xy 510.54 124.46) (xy 525.78 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07f610b4-6ee4-4bd3-b855-b6a4d6613223")
 	)
 	(wire
 		(pts
@@ -10961,6 +11384,16 @@
 			(type default)
 		)
 		(uuid "0c649dce-a9af-4a13-9627-6500815dbdf2")
+	)
+	(wire
+		(pts
+			(xy 506.73 77.47) (xy 506.73 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ccf7027-baa9-44c0-94dc-5485c2348d8c")
 	)
 	(wire
 		(pts
@@ -11074,13 +11507,23 @@
 	)
 	(wire
 		(pts
-			(xy 535.94 101.6) (xy 538.48 101.6)
+			(xy 535.94 132.08) (xy 538.48 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "17d55247-a462-4ae0-a417-560bc2c3e996")
+	)
+	(wire
+		(pts
+			(xy 487.68 49.53) (xy 490.22 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17ff2c13-3e94-4222-ac28-468cfe2d1407")
 	)
 	(wire
 		(pts
@@ -11141,6 +11584,16 @@
 			(type default)
 		)
 		(uuid "1f5a34ce-bba6-42da-849b-ede7abaf282f")
+	)
+	(wire
+		(pts
+			(xy 499.11 120.65) (xy 496.57 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "202459d7-23b0-4d0a-8bd2-aef389d33012")
 	)
 	(wire
 		(pts
@@ -11244,7 +11697,7 @@
 	)
 	(wire
 		(pts
-			(xy 538.48 93.98) (xy 535.94 93.98)
+			(xy 538.48 124.46) (xy 535.94 124.46)
 		)
 		(stroke
 			(width 0)
@@ -11281,6 +11734,16 @@
 			(type default)
 		)
 		(uuid "2e176ca7-4a87-41df-91e7-512a78de577d")
+	)
+	(wire
+		(pts
+			(xy 488.95 120.65) (xy 483.87 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ea7ee4a-6c52-409b-b45c-fd83f6d1b7e7")
 	)
 	(wire
 		(pts
@@ -11374,7 +11837,7 @@
 	)
 	(wire
 		(pts
-			(xy 516.89 80.01) (xy 508 80.01)
+			(xy 532.13 87.63) (xy 508 87.63)
 		)
 		(stroke
 			(width 0)
@@ -11384,7 +11847,7 @@
 	)
 	(wire
 		(pts
-			(xy 488.95 92.71) (xy 483.87 92.71)
+			(xy 488.95 106.68) (xy 483.87 106.68)
 		)
 		(stroke
 			(width 0)
@@ -11474,16 +11937,6 @@
 	)
 	(wire
 		(pts
-			(xy 509.27 93.98) (xy 509.27 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "510297d6-f481-4e4c-8b42-f920482b1160")
-	)
-	(wire
-		(pts
 			(xy 401.32 212.09) (xy 406.4 212.09)
 		)
 		(stroke
@@ -11511,6 +11964,16 @@
 			(type default)
 		)
 		(uuid "516e54d1-7788-4d7a-8248-5000ad7b912c")
+	)
+	(wire
+		(pts
+			(xy 505.46 106.68) (xy 510.54 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53fefed4-0beb-415f-8c60-d57ce998b252")
 	)
 	(wire
 		(pts
@@ -11604,13 +12067,13 @@
 	)
 	(wire
 		(pts
-			(xy 509.27 124.46) (xy 509.27 93.98)
+			(xy 506.73 78.74) (xy 502.92 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6031b3a5-a72e-4c1c-996b-3c0420e3b549")
+		(uuid "5fa8aa64-2eeb-4dc5-a948-a97b85e324a5")
 	)
 	(wire
 		(pts
@@ -11674,7 +12137,7 @@
 	)
 	(wire
 		(pts
-			(xy 434.34 124.46) (xy 509.27 124.46)
+			(xy 434.34 124.46) (xy 510.54 124.46)
 		)
 		(stroke
 			(width 0)
@@ -11701,6 +12164,16 @@
 			(type default)
 		)
 		(uuid "66b2b053-120d-4e64-86b7-b6af1e3fa5c8")
+	)
+	(wire
+		(pts
+			(xy 525.78 104.14) (xy 525.78 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68bcaae3-3f3e-4ea0-9435-d042dfa1ed8e")
 	)
 	(wire
 		(pts
@@ -11784,7 +12257,7 @@
 	)
 	(wire
 		(pts
-			(xy 516.89 82.55) (xy 509.27 82.55)
+			(xy 532.13 92.71) (xy 525.78 92.71)
 		)
 		(stroke
 			(width 0)
@@ -11864,7 +12337,7 @@
 	)
 	(wire
 		(pts
-			(xy 538.48 93.98) (xy 605.79 93.98)
+			(xy 538.48 124.46) (xy 551.18 124.46)
 		)
 		(stroke
 			(width 0)
@@ -12024,7 +12497,7 @@
 	)
 	(wire
 		(pts
-			(xy 499.11 82.55) (xy 496.57 82.55)
+			(xy 499.11 92.71) (xy 496.57 92.71)
 		)
 		(stroke
 			(width 0)
@@ -12044,7 +12517,7 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 233.68) (xy 358.14 233.68)
+			(xy 349.25 233.68) (xy 605.79 233.68)
 		)
 		(stroke
 			(width 0)
@@ -12111,16 +12584,6 @@
 			(type default)
 		)
 		(uuid "882bdf25-83b7-4017-9693-481d2aa530fa")
-	)
-	(wire
-		(pts
-			(xy 439.42 193.04) (xy 439.42 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "888e3fef-e7f0-4124-836a-8e4ba43e0bb3")
 	)
 	(wire
 		(pts
@@ -12244,7 +12707,7 @@
 	)
 	(wire
 		(pts
-			(xy 535.94 93.98) (xy 532.13 93.98)
+			(xy 535.94 124.46) (xy 532.13 124.46)
 		)
 		(stroke
 			(width 0)
@@ -12334,6 +12797,16 @@
 	)
 	(wire
 		(pts
+			(xy 497.84 106.68) (xy 496.57 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3100554-0080-426a-b0a8-c462edc9536d")
+	)
+	(wire
+		(pts
 			(xy 303.53 133.35) (xy 317.5 133.35)
 		)
 		(stroke
@@ -12351,6 +12824,16 @@
 			(type default)
 		)
 		(uuid "a40363bc-88c5-499b-8f1c-35f7829ff1e6")
+	)
+	(wire
+		(pts
+			(xy 487.68 57.15) (xy 487.68 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a417c7eb-38a4-4649-a0ae-e707e4e80aad")
 	)
 	(wire
 		(pts
@@ -12384,7 +12867,7 @@
 	)
 	(wire
 		(pts
-			(xy 538.48 96.52) (xy 538.48 93.98)
+			(xy 538.48 127) (xy 538.48 124.46)
 		)
 		(stroke
 			(width 0)
@@ -12514,6 +12997,16 @@
 	)
 	(wire
 		(pts
+			(xy 431.8 110.49) (xy 441.96 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bae9a8d0-13c5-4f8b-8498-d017c39ee831")
+	)
+	(wire
+		(pts
 			(xy 265.43 104.14) (xy 434.34 104.14)
 		)
 		(stroke
@@ -12534,6 +13027,16 @@
 	)
 	(wire
 		(pts
+			(xy 483.87 77.47) (xy 506.73 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb2c46bf-28be-42dd-8bb4-c35f8a95d258")
+	)
+	(wire
+		(pts
 			(xy 439.42 127) (xy 461.01 127)
 		)
 		(stroke
@@ -12541,16 +13044,6 @@
 			(type default)
 		)
 		(uuid "bb765c10-b836-4bb3-85f9-858ae366d457")
-	)
-	(wire
-		(pts
-			(xy 509.27 93.98) (xy 532.13 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd9df68a-6c7e-4672-8fd5-4b87b9e97678")
 	)
 	(wire
 		(pts
@@ -12634,7 +13127,17 @@
 	)
 	(wire
 		(pts
-			(xy 508 76.2) (xy 510.54 76.2)
+			(xy 525.78 92.71) (xy 525.78 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c44b127f-4643-4f67-9c72-af14b8505138")
+	)
+	(wire
+		(pts
+			(xy 508 86.36) (xy 510.54 86.36)
 		)
 		(stroke
 			(width 0)
@@ -12684,16 +13187,6 @@
 	)
 	(wire
 		(pts
-			(xy 392.43 233.68) (xy 605.79 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6dd03bf-aebd-436d-a65c-3302307c3236")
-	)
-	(wire
-		(pts
 			(xy 83.82 133.35) (xy 97.79 133.35)
 		)
 		(stroke
@@ -12734,16 +13227,6 @@
 	)
 	(wire
 		(pts
-			(xy 509.27 85.09) (xy 509.27 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c953617a-7f58-48bb-9651-e5eee022f5ca")
-	)
-	(wire
-		(pts
 			(xy 401.32 191.77) (xy 389.89 191.77)
 		)
 		(stroke
@@ -12764,7 +13247,7 @@
 	)
 	(wire
 		(pts
-			(xy 532.13 101.6) (xy 535.94 101.6)
+			(xy 532.13 132.08) (xy 535.94 132.08)
 		)
 		(stroke
 			(width 0)
@@ -12824,6 +13307,16 @@
 	)
 	(wire
 		(pts
+			(xy 510.54 114.3) (xy 510.54 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d38c355c-e7ef-4dc1-84cd-3efcb5682eba")
+	)
+	(wire
+		(pts
 			(xy 237.49 106.68) (xy 250.19 106.68)
 		)
 		(stroke
@@ -12854,7 +13347,7 @@
 	)
 	(wire
 		(pts
-			(xy 510.54 68.58) (xy 502.92 68.58)
+			(xy 510.54 78.74) (xy 506.73 78.74)
 		)
 		(stroke
 			(width 0)
@@ -12934,13 +13427,13 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 233.68) (xy 392.43 233.68)
+			(xy 487.68 57.15) (xy 490.22 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "de059745-0732-4403-b106-36078abb564d")
+		(uuid "de1f333c-0bab-4b64-90ae-f99b09a45c61")
 	)
 	(wire
 		(pts
@@ -13054,7 +13547,7 @@
 	)
 	(wire
 		(pts
-			(xy 502.92 76.2) (xy 508 76.2)
+			(xy 502.92 86.36) (xy 508 86.36)
 		)
 		(stroke
 			(width 0)
@@ -13084,7 +13577,7 @@
 	)
 	(wire
 		(pts
-			(xy 508 80.01) (xy 508 76.2)
+			(xy 508 87.63) (xy 508 86.36)
 		)
 		(stroke
 			(width 0)
@@ -13104,6 +13597,16 @@
 	)
 	(wire
 		(pts
+			(xy 532.13 92.71) (xy 532.13 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee23dec8-1b06-418b-af23-0605f6d6f114")
+	)
+	(wire
+		(pts
 			(xy 68.58 133.35) (xy 68.58 138.43)
 		)
 		(stroke
@@ -13111,6 +13614,16 @@
 			(type default)
 		)
 		(uuid "f06046ee-09c4-41e3-b2fb-8d977380c3e3")
+	)
+	(wire
+		(pts
+			(xy 551.18 124.46) (xy 605.79 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f14fadfe-4dcc-4694-8e2b-767682392853")
 	)
 	(wire
 		(pts
@@ -13164,13 +13677,33 @@
 	)
 	(wire
 		(pts
-			(xy 483.87 82.55) (xy 488.95 82.55)
+			(xy 483.87 92.71) (xy 488.95 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fadb724c-6a19-46ea-96ec-23b822c17028")
+	)
+	(wire
+		(pts
+			(xy 532.13 87.63) (xy 532.13 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbff63cb-4b72-4f95-a553-a704b3a397e4")
+	)
+	(wire
+		(pts
+			(xy 487.68 59.69) (xy 551.18 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fccb2fde-9c3a-4019-8757-f7663ac0f762")
 	)
 	(wire
 		(pts
@@ -14438,7 +14971,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 492.76 92.71 90)
+		(at 492.76 106.68 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14448,7 +14981,7 @@
 		(dnp no)
 		(uuid "1be90fe3-2ab0-4223-acbe-1b560cd78784")
 		(property "Reference" "R235"
-			(at 492.76 92.71 90)
+			(at 492.76 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14458,7 +14991,7 @@
 			)
 		)
 		(property "Value" "1Ω"
-			(at 492.506 90.678 90)
+			(at 492.506 104.648 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14468,7 +15001,7 @@
 			)
 		)
 		(property "Footprint" "_my-footprints:_R_Axial_P17.0mm"
-			(at 492.76 94.488 90)
+			(at 492.76 108.458 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14479,7 +15012,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 492.76 92.71 0)
+			(at 492.76 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14490,7 +15023,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 492.76 92.71 0)
+			(at 492.76 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14595,7 +15128,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 358.14 229.87 0)
+		(at 551.18 120.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14603,10 +15136,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1ed1ba87-85c6-4cbb-9a2b-d02eb5ff044a")
 		(property "Reference" "C139"
-			(at 361.95 228.5999 0)
+			(at 547.878 122.428 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14617,7 +15149,8 @@
 			)
 		)
 		(property "Value" "C"
-			(at 361.95 231.1399 0)
+			(at 554.99 121.9199 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14628,7 +15161,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P12.50mm_Horizontal"
-			(at 359.1052 233.68 0)
+			(at 552.1452 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14639,7 +15172,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 358.14 229.87 0)
+			(at 551.18 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14650,7 +15183,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 358.14 229.87 0)
+			(at 551.18 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14753,6 +15286,86 @@
 			(project "apple-color-monitor-iie-a2m2056"
 				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
 					(reference "R506")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "-my-symbols:-testpoint")
+		(at 495.3 57.15 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2054f80c-0057-4398-af3b-d23f8e254f9e")
+		(property "Reference" "Z1"
+			(at 494.03 56.134 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "-testpoint"
+			(at 495.9349 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "_my-footprints:-testpoint"
+			(at 495.3 61.722 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 495.3 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Testpoint connector"
+			(at 495.3 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "TP"
+			(uuid "31e471fc-2519-44cc-961e-b6421a06e244")
+		)
+		(instances
+			(project "apple-color-monitor-iie-a2m2056"
+				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
+					(reference "Z1")
 					(unit 1)
 				)
 			)
@@ -15236,7 +15849,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 510.54 72.39 0)
+		(at 510.54 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15246,7 +15859,7 @@
 		(dnp no)
 		(uuid "2c4df675-53a6-41d2-9368-3e59f9bd47cc")
 		(property "Reference" "R924"
-			(at 510.54 69.85 90)
+			(at 510.54 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15257,7 +15870,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 508 71.1201 0)
+			(at 508 81.2801 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15269,7 +15882,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 508.762 72.39 90)
+			(at 508.762 82.55 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15280,7 +15893,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 510.54 72.39 0)
+			(at 510.54 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15291,7 +15904,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 510.54 72.39 0)
+			(at 510.54 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15319,7 +15932,7 @@
 	(symbol
 		(lib_name "Conn_01x02_Pin_1")
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 521.97 82.55 180)
+		(at 537.21 91.44 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15329,7 +15942,7 @@
 		(dnp no)
 		(uuid "2c726517-7d95-48df-8b9b-9d56682394cf")
 		(property "Reference" "CN8"
-			(at 524.256 80.772 0)
+			(at 539.496 89.662 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15339,7 +15952,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 521.335 85.09 0)
+			(at 536.575 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15350,7 +15963,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.127sqmm_1x02_P3.7mm_D0.48mm_OD1mm"
-			(at 521.97 82.55 0)
+			(at 537.21 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15361,7 +15974,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 521.97 82.55 0)
+			(at 537.21 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15372,7 +15985,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 521.97 82.55 0)
+			(at 537.21 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15477,7 +16090,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 392.43 229.87 0)
+		(at 510.54 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15485,10 +16098,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2e2c6431-04fb-47cc-a8f1-7abc0a155279")
 		(property "Reference" "C138"
-			(at 396.24 227.7109 0)
+			(at 507.238 112.522 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15499,7 +16111,7 @@
 			)
 		)
 		(property "Value" "1000µF 25V"
-			(at 396.24 230.2509 0)
+			(at 514.096 116.332 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15510,7 +16122,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P7.50mm"
-			(at 393.3952 233.68 0)
+			(at 511.5052 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15521,7 +16133,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 392.43 229.87 0)
+			(at 510.54 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15532,7 +16144,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 392.43 229.87 0)
+			(at 510.54 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15543,7 +16155,7 @@
 			)
 		)
 		(property "KiLib_Generator" "capacitor/THT/other"
-			(at 392.43 229.87 0)
+			(at 510.54 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15563,6 +16175,88 @@
 			(project "apple-color-monitor-iie-a2m2056"
 				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
 					(reference "C138")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 426.72 110.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e60efae-7229-428f-92b1-f75ec3a19b87")
+		(property "Reference" "J308"
+			(at 426.72 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Bridged"
+			(at 425.4501 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "_my-footprints:_Jumper_13mm"
+			(at 426.72 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 426.72 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 426.72 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f8dad840-713b-4260-ab2c-1fc2f71375c1")
+		)
+		(pin "2"
+			(uuid "c8b1e86e-5f96-43fc-8b28-449bc5887c01")
+		)
+		(instances
+			(project "apple-color-monitor-iie-a2m2056"
+				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
+					(reference "J308")
 					(unit 1)
 				)
 			)
@@ -16232,7 +16926,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 535.94 101.6 0)
+		(at 535.94 132.08 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16243,7 +16937,7 @@
 		(fields_autoplaced yes)
 		(uuid "3f30441f-f791-48c7-bdfd-f2a782125115")
 		(property "Reference" "#PWR013"
-			(at 535.94 106.68 0)
+			(at 535.94 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16254,7 +16948,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 535.813 105.41 0)
+			(at 535.813 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16264,7 +16958,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 535.94 102.87 0)
+			(at 535.94 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16275,7 +16969,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 535.94 102.87 0)
+			(at 535.94 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16286,7 +16980,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 535.94 101.6 0)
+			(at 535.94 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16758,6 +17452,88 @@
 			(project "apple-color-monitor-iie-a2m2056"
 				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
 					(reference "C506")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 506.73 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4b497de4-34fb-4f3a-97e2-d352046f574f")
+		(property "Reference" "R161"
+			(at 506.73 71.12 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R"
+			(at 504.19 72.3901 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 504.952 73.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 506.73 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 506.73 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b2dd7951-a675-49aa-afb9-2f76eb8c7bfe")
+		)
+		(pin "2"
+			(uuid "e07e4704-aa68-4663-a622-00945880af2d")
+		)
+		(instances
+			(project "apple-color-monitor-iie-a2m2056"
+				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
+					(reference "R161")
 					(unit 1)
 				)
 			)
@@ -17405,6 +18181,108 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D")
+		(at 506.73 66.04 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5640c8c6-7938-43f7-80a2-d02054c1b341")
+		(property "Reference" "D160"
+			(at 509.016 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 510.54 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-15_P10.16mm_Horizontal"
+			(at 506.73 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 506.73 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 506.73 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 506.73 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 506.73 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "cbad4eed-0cd1-4990-95ca-998828016c65")
+		)
+		(pin "1"
+			(uuid "00a26d93-a457-44ec-86b6-e6f7c1d792d4")
+		)
+		(instances
+			(project "apple-color-monitor-iie-a2m2056"
+				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
+					(reference "D160")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L_Trim")
 		(at 408.94 88.9 0)
 		(unit 1)
@@ -17743,6 +18621,90 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 487.68 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5ea455d2-bcb9-4336-9973-fcb48324a4da")
+		(property "Reference" "R169"
+			(at 487.68 50.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R"
+			(at 485.14 52.0701 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 485.902 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 487.68 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 487.68 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c65640f3-e594-4cee-a3bd-f58a7498b956")
+		)
+		(pin "2"
+			(uuid "3e91ba16-4fa3-44c7-ab45-978355b91aaf")
+		)
+		(instances
+			(project "apple-color-monitor-iie-a2m2056"
+				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
+					(reference "R169")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:RFShield_OnePiece")
 		(at 176.53 255.27 0)
 		(unit 1)
@@ -18000,7 +18962,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 532.13 97.79 0)
+		(at 532.13 128.27 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -18011,7 +18973,7 @@
 		(dnp no)
 		(uuid "6bd12f28-c874-4af9-96ef-e394c07de0a4")
 		(property "Reference" "R512"
-			(at 532.13 95.25 90)
+			(at 532.13 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18022,7 +18984,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 534.67 96.5201 0)
+			(at 534.67 127.0001 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18034,7 +18996,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
-			(at 530.352 97.79 90)
+			(at 530.352 128.27 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18045,7 +19007,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 532.13 97.79 0)
+			(at 532.13 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18056,7 +19018,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 532.13 97.79 0)
+			(at 532.13 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18083,7 +19045,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 538.48 99.06 0)
+		(at 538.48 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18093,7 +19055,7 @@
 		(dnp no)
 		(uuid "6f3e056d-90b0-4f93-95ec-5b0a9bac28d5")
 		(property "Reference" "C513"
-			(at 535.94 101.346 90)
+			(at 535.94 131.826 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18104,7 +19066,7 @@
 			)
 		)
 		(property "Value" "C_Small"
-			(at 541.02 100.3362 0)
+			(at 541.02 130.8162 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18116,7 +19078,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Rect_L9.0mm_W2.5mm_P7.50mm_MKT"
-			(at 538.48 99.06 0)
+			(at 538.48 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18127,7 +19089,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 538.48 99.06 0)
+			(at 538.48 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18138,7 +19100,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 538.48 99.06 0)
+			(at 538.48 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18251,6 +19213,108 @@
 			(project "apple-color-monitor-iie-a2m2056"
 				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
 					(reference "C309")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 502.92 120.65 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7443d9b7-443f-448f-bc49-f128b9cf8db5")
+		(property "Reference" "D204"
+			(at 502.92 118.364 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 502.92 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-15_P15.24mm_Horizontal"
+			(at 502.92 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 502.92 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 502.92 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 502.92 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 502.92 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "57f2785f-62aa-4b0d-8acf-61b0d67ce9fa")
+		)
+		(pin "1"
+			(uuid "b061cf60-53e2-4d82-8eb4-1f0afc9a54a3")
+		)
+		(instances
+			(project "apple-color-monitor-iie-a2m2056"
+				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
+					(reference "D204")
 					(unit 1)
 				)
 			)
@@ -18785,6 +19849,188 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 473.71 118.11 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84514fbe-5d43-41da-af9a-2513a8534328")
+		(property "Reference" "#PWR06"
+			(at 473.71 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND_AC_RECT"
+			(at 473.71 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 473.71 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 473.71 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 473.71 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2ebaeb8f-1ba5-4deb-a288-661a0e75cd47")
+		)
+		(instances
+			(project "apple-color-monitor-iie-a2m2056"
+				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 501.65 106.68 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "861c5a43-200c-42ef-b894-31351c36a5a8")
+		(property "Reference" "D205"
+			(at 501.65 104.394 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 501.65 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-15_P15.24mm_Horizontal"
+			(at 501.65 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 501.65 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 501.65 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 501.65 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 501.65 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "08107994-ecb4-4d3d-bc3b-ea6c3f0c940d")
+		)
+		(pin "1"
+			(uuid "b6d7cc24-1da0-4a35-b066-69a4f0f3b02b")
+		)
+		(instances
+			(project "apple-color-monitor-iie-a2m2056"
+				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
+					(reference "D205")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Simulation_SPICE:PNP")
 		(at 209.55 198.12 0)
 		(unit 1)
@@ -18974,86 +20220,6 @@
 			(project "apple-color-monitor-iie-a2m2056"
 				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 473.71 104.14 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "927625ac-7259-4b0c-8291-d15174481f68")
-		(property "Reference" "#PWR06"
-			(at 473.71 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND_AC_RECT"
-			(at 473.71 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 473.71 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 473.71 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 473.71 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "762650cf-8a22-4df3-9a3e-cad436e6c05f")
-		)
-		(instances
-			(project "apple-color-monitor-iie-a2m2056"
-				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
-					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -19709,7 +20875,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 535.94 88.9 270)
+		(at 535.94 119.38 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19720,7 +20886,7 @@
 		(fields_autoplaced yes)
 		(uuid "a76c64e6-f748-4a98-94b2-1fbe38f87dd8")
 		(property "Reference" "CN16"
-			(at 537.21 89.5349 90)
+			(at 537.21 120.0149 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19731,7 +20897,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Pin"
-			(at 534.67 88.2651 90)
+			(at 534.67 118.7451 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19743,7 +20909,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Pin:Pin_D1.0mm_L10.0mm"
-			(at 535.94 88.9 0)
+			(at 535.94 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19754,7 +20920,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 535.94 88.9 0)
+			(at 535.94 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19765,7 +20931,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 535.94 88.9 0)
+			(at 535.94 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19821,7 +20987,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_THT:L_Radial_D12.0mm_P6.00mm_Murata_1900R"
+		(property "Footprint" "Inductor_THT:L_Radial_D12.5mm_P7.00mm_Fastron_09HCP"
 			(at 436.88 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -20500,7 +21666,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 509.27 88.9 0)
+		(at 525.78 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20510,7 +21676,7 @@
 		(dnp no)
 		(uuid "b7ee1bc2-8f6f-4603-8328-0c8bae3ac89b")
 		(property "Reference" "C140"
-			(at 505.968 91.44 90)
+			(at 522.478 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20521,7 +21687,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 512.318 89.408 0)
+			(at 528.828 100.838 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20533,7 +21699,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm"
-			(at 510.2352 92.71 0)
+			(at 526.7452 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20544,7 +21710,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 509.27 88.9 0)
+			(at 525.78 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20555,7 +21721,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 509.27 88.9 0)
+			(at 525.78 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20566,7 +21732,7 @@
 			)
 		)
 		(property "KiLib_Generator" "capacitor/THT/other"
-			(at 509.27 88.9 0)
+			(at 525.78 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21034,7 +22200,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 492.76 82.55 90)
+		(at 492.76 92.71 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21044,7 +22210,7 @@
 		(dnp no)
 		(uuid "ceb2bc20-414d-4302-b6c9-e5fc0909fc1b")
 		(property "Reference" "R172"
-			(at 492.76 82.55 90)
+			(at 492.76 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21054,7 +22220,7 @@
 			)
 		)
 		(property "Value" "1Ω"
-			(at 492.506 80.518 90)
+			(at 492.506 90.678 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21064,7 +22230,7 @@
 			)
 		)
 		(property "Footprint" "_my-footprints:_R_Axial_P17.0mm"
-			(at 492.76 84.328 90)
+			(at 492.76 94.488 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21075,7 +22241,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 492.76 82.55 0)
+			(at 492.76 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21086,7 +22252,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 492.76 82.55 0)
+			(at 492.76 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21113,7 +22279,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 502.92 82.55 180)
+		(at 502.92 92.71 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21123,7 +22289,7 @@
 		(dnp no)
 		(uuid "cfeaa8e3-2dca-4256-b523-2b471df1b04c")
 		(property "Reference" "D107"
-			(at 502.92 80.264 0)
+			(at 502.92 90.424 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21133,7 +22299,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 502.92 78.74 0)
+			(at 502.92 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21144,7 +22310,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-15_P12.70mm_Horizontal"
-			(at 502.92 82.55 0)
+			(at 502.92 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21155,7 +22321,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 502.92 82.55 0)
+			(at 502.92 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21166,7 +22332,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 502.92 82.55 0)
+			(at 502.92 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21177,7 +22343,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 502.92 82.55 0)
+			(at 502.92 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21188,7 +22354,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 502.92 82.55 0)
+			(at 502.92 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21961,6 +23127,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 492.76 120.65 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e46379d8-7b15-4485-ac22-357d437c8847")
+		(property "Reference" "R236"
+			(at 490.22 120.65 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R"
+			(at 491.4901 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "_my-footprints:_R_Axial_P17.0mm"
+			(at 492.76 122.428 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 492.76 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 492.76 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eae62722-71df-4ac7-9974-c8134c586237")
+		)
+		(pin "2"
+			(uuid "9a489d0f-e737-455a-a491-983872f11169")
+		)
+		(instances
+			(project "apple-color-monitor-iie-a2m2056"
+				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
+					(reference "R236")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 317.5 137.16 0)
 		(mirror y)
@@ -22049,6 +23297,86 @@
 			(project "apple-color-monitor-iie-a2m2056"
 				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
 					(reference "C510")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "-my-symbols:-testpoint")
+		(at 495.3 49.53 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eb32fc7b-0ef5-4d08-824c-5b7c93d09caa")
+		(property "Reference" "Y1"
+			(at 494.03 48.514 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "-testpoint"
+			(at 495.9349 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "_my-footprints:-testpoint"
+			(at 495.3 54.102 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 495.3 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Testpoint connector"
+			(at 495.3 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "TP"
+			(uuid "922719ca-e398-4190-9011-a08d0c066aad")
+		)
+		(instances
+			(project "apple-color-monitor-iie-a2m2056"
+				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
+					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -22334,7 +23662,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 502.92 72.39 0)
+		(at 502.92 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22344,7 +23672,7 @@
 		(dnp no)
 		(uuid "f3e1b72c-3f24-4283-be79-2d033c27cf3d")
 		(property "Reference" "R919"
-			(at 502.92 69.85 90)
+			(at 502.92 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22355,7 +23683,7 @@
 			)
 		)
 		(property "Value" "1.8Ω 2W"
-			(at 500.634 68.58 90)
+			(at 500.634 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22366,7 +23694,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P20.32mm_Horizontal"
-			(at 501.142 72.39 90)
+			(at 501.142 82.55 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22377,7 +23705,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 502.92 72.39 0)
+			(at 502.92 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22388,7 +23716,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 502.92 72.39 0)
+			(at 502.92 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

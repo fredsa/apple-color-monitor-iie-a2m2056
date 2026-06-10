@@ -662,7 +662,7 @@
         "uuid": "f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
       }
     ],
-    "used_designators": "D205,Z1,Y1-2,X1,TP1-2",
+    "used_designators": "VR502,JP307,JP503,R1,R306-307,#PWR18-22,C161,C302,C313,C552,D205,T206,Z1,TP1-2,Y1-2,X1",
     "variants": []
   },
   "sheets": [

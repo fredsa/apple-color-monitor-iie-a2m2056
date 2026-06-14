@@ -1,0 +1,163 @@
+(footprint "_Jumper_15mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Soldered wire connection, for 2 times 0.127 mm² wires, basic insulation, conductor diameter 0.48mm, outer diameter 1mm, size source Multi-Contact FLEXI-E/HK 0.127 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter")
+	(tags "connector wire 0.127sqmm")
+	(property "Reference" "JP"
+		(at 7.5 -1 0)
+		(layer "F.SilkS")
+		(uuid "76acf63a-aad1-4f12-a9e6-92fe8fc698a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "JP"
+		(at 7 2.05 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b5bfeefc-c175-4b14-9065-5d87be4d4e6c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1ff44a0e-9830-481b-b79f-93fcd1fedb6f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Jumper, 2-pole, closed/bridged"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d2d09938-83dd-4d20-a869-feb812570167")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "KiLib_Generator" "connector/wire"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "cedddc15-a818-4fc2-82f7-7429d2916c31")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
+	(sheetname "/")
+	(sheetfile "apple-color-monitor-iie-a2m2056.kicad_sch")
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -1.35 -1.35)
+		(end 1.35 1.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "4449828f-0293-47ff-87f0-b40eac57cb1b")
+	)
+	(fp_rect
+		(start 13.65 -1.35)
+		(end 16.35 1.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "6cd742d4-0fba-4822-9eb5-be9f927c2754")
+	)
+	(fp_line
+		(start 0.5 0)
+		(end 14.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "2a2294ae-a542-47ad-864f-b5bcc37d9e70")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "d1d234a5-064d-453b-aa4f-da8e215ee45a")
+	)
+	(fp_circle
+		(center 15 0)
+		(end 15.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "b5ac8c55-7445-49df-a229-e378697724a5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 7.5 0 180)
+		(layer "F.Fab")
+		(uuid "79f0d2bb-693d-445d-99eb-0921264fe385")
+		(effects
+			(font
+				(size 0.68 0.68)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 1.7 1.7)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.147059)
+		(uuid "dc4e9034-d6df-493c-82f2-afaff7d566a1")
+	)
+	(pad "2" thru_hole circle
+		(at 15 0)
+		(size 1.7 1.7)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "15a3e8d2-53ba-402a-96ac-704e94c25db7")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.127sqmm_1x02_P3.7mm_D0.48mm_OD1mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

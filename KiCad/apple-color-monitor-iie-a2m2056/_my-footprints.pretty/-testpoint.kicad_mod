@@ -5,10 +5,10 @@
 	(layer "F.Cu")
 	(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 	(tags "solder Pin_ press fit")
-	(property "Reference" "TP"
+	(property "Reference" "TPx1"
 		(at 0.051392 2.5 0)
 		(layer "F.SilkS")
-		(uuid "1ba29812-16cc-4a9c-8269-a8c9faa24301")
+		(uuid "c688a978-e434-4c81-8dca-e186020f24a6")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 		(at 0 -2.05 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ff9d8a2a-8616-4b5c-b8d8-0d4b74f80339")
+		(uuid "b207ca45-7117-4c4c-9f46-b42c44b3e963")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "491d0f48-ee7b-4d7e-9457-c5fdce310f16")
+		(uuid "dbe1668e-19ce-4dde-a047-f2cac79a24de")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "77033f65-432c-40ea-aa80-f06cb7da7ed9")
+		(uuid "a6a46166-5ce2-4ce7-92b5-d220164ee196")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -60,15 +60,15 @@
 	(attr through_hole)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_circle
-		(center 0 2.501995)
-		(end 1.25 2.551995)
+		(center 0.431707 2.602672)
+		(end 1.431707 2.602672)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "39a4d271-d58e-40cc-8105-9caf8692f835")
+		(uuid "bf37928c-780d-4356-bc8d-982b94ebad90")
 	)
 	(fp_circle
 		(center 0 0)
@@ -79,12 +79,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "2f75387c-3c08-46fb-8532-60f4ecb4b814")
+		(uuid "5bf40d11-8f65-4ca5-8a64-b88cc92597cc")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0.051392 2.5 0)
 		(layer "F.Fab")
-		(uuid "5935b133-ab1f-48de-b918-5fd57e3c568a")
+		(uuid "c307e895-3bf4-4738-b9cd-ea017a8d9a69")
 		(effects
 			(font
 				(size 1 1)
@@ -97,7 +97,7 @@
 		(size 1 1)
 		(property pad_prop_testpoint)
 		(layers "B.Cu" "B.Mask" "B.Paste")
-		(uuid "83d36e27-4d0c-4bab-9a65-201954660920")
+		(uuid "cd5105b0-e815-4e56-9d79-dfd26806fd22")
 	)
 	(embedded_fonts no)
 	(model "${KICAD10_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"

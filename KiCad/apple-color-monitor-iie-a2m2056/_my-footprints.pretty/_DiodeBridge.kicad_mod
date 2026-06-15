@@ -6,9 +6,9 @@
 	(descr "Vishay GBL rectifier package, 5.08mm pitch, see http://www.vishay.com/docs/88609/gbl005.pdf")
 	(tags "Vishay GBL rectifier diode bridge")
 	(property "Reference" "D501"
-		(at 7.5 4.5 180)
+		(at 7.5 -1.5 180)
 		(layer "F.SilkS")
-		(uuid "f74131a6-b2a0-46ac-b667-7d970b2a0579")
+		(uuid "58e49ec5-4dfa-4915-9dcb-94421b9239a2")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,8 @@
 	(property "Value" "VALUE"
 		(at 7.1 2.5 180)
 		(layer "F.Fab")
-		(uuid "b81e5df9-5528-446a-909a-ad48df3309e2")
+		(hide yes)
+		(uuid "2e1d28a4-de6c-4aea-902b-e992726ad1ff")
 		(effects
 			(font
 				(size 1 1)
@@ -27,12 +28,12 @@
 			)
 		)
 	)
-	(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c3700"
+	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ec5c5903-98e6-40af-9d2a-069ad2e30783")
+		(uuid "8ffd8a97-16a6-464b-965d-3399b164fb7a")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40,12 +41,12 @@
 			)
 		)
 	)
-	(property "Description" "Silicon Bridge Rectifier, 40V Vrms, 2.2A If, pins=-AA+, SIL-package"
+	(property "Description" "Bridge Rectifier"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c308df5c-7bfd-4cda-8816-815046ff230a")
+		(uuid "7250f5a6-b999-44d1-9b68-4c99848e23cd")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -66,7 +67,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "f03668ec-a381-44f6-b197-742ae9d5cf28")
+		(uuid "1b155538-c6d1-4559-89a7-c4d298d4cc36")
 	)
 	(fp_line
 		(start -2.95 1.15)
@@ -76,7 +77,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "e05c99d0-d8fa-45f5-a366-4053ff51dd58")
+		(uuid "8d4f9ce5-bff4-43e8-86dd-897eb0ee3012")
 	)
 	(fp_line
 		(start -0.3 -2.65)
@@ -86,7 +87,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "5fdbe10a-0362-4f98-a87f-e54cd64ccca8")
+		(uuid "e3c48c97-a348-4c84-82d2-779b2f315243")
 	)
 	(fp_line
 		(start 2 1.15)
@@ -96,7 +97,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "74274e8d-457a-40a0-b5c4-f142b3304413")
+		(uuid "728df377-4b4d-4515-a267-6efcf77b57d6")
 	)
 	(fp_line
 		(start 6.7 1.15)
@@ -106,7 +107,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "7a226727-1245-4115-848d-7010f4c08548")
+		(uuid "982bbd22-81ba-4680-8a95-3043e292ac72")
 	)
 	(fp_line
 		(start 11.7 1.15)
@@ -116,7 +117,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "16790b78-5741-4c03-9bd6-fa5463c79215")
+		(uuid "386e6185-d219-4867-bead-82aa80c3f6c0")
 	)
 	(fp_line
 		(start 16.8 1.15)
@@ -126,7 +127,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "512b2c64-a885-47c3-a46a-c8c8979c048d")
+		(uuid "be199370-f7ab-4329-8285-cf839c00e348")
 	)
 	(fp_line
 		(start 18.2 -2.65)
@@ -136,7 +137,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "bd14b39d-66a0-4d56-9c87-e5b5c11aa221")
+		(uuid "5c7ebb4f-b598-4718-9fe8-ba7b1bd9bd03")
 	)
 	(fp_line
 		(start 18.2 1.15)
@@ -146,7 +147,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "a65aa89c-01f3-42dc-9ce5-86e89d49ea57")
+		(uuid "70aa281e-88ec-4992-931d-646b7b04a0b9")
 	)
 	(fp_line
 		(start -3.1 1.85)
@@ -156,7 +157,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "efd293a8-5cdf-478a-96ff-7bb7e06a586d")
+		(uuid "f69af476-04aa-4b12-93c2-8b9dbe4a3428")
 	)
 	(fp_line
 		(start -3.1 1.85)
@@ -166,7 +167,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "128aeb05-a7fa-41aa-92ec-ecd6a0aac582")
+		(uuid "2dcf5621-dc7f-4db7-a1df-0998e4e29c15")
 	)
 	(fp_line
 		(start 18.35 -2.8)
@@ -176,7 +177,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "73fa9d3e-146d-4e69-bc25-cc97b288ccbc")
+		(uuid "e1eb1529-daa6-4128-bd50-78878605683e")
 	)
 	(fp_line
 		(start 18.35 -2.8)
@@ -186,7 +187,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "aa10c85c-8709-4e62-9c76-b8351520fdfa")
+		(uuid "27b33d33-c43b-40e4-bee9-5d0401fdacf7")
 	)
 	(fp_line
 		(start -2.85 -1.55)
@@ -196,7 +197,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "f23225c0-bc9f-4cba-913f-d1bb3b4d1781")
+		(uuid "6557c3fc-436f-4c37-8475-b080e18e13d5")
 	)
 	(fp_line
 		(start -2.85 1.05)
@@ -206,7 +207,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "7407c478-187a-495f-8168-5e4262f9064f")
+		(uuid "9289661c-ec7e-41ca-ae1c-1fe748f634dc")
 	)
 	(fp_line
 		(start -1.95 -2.55)
@@ -216,7 +217,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "eac9cf88-e1be-4203-9647-a8e43c78f673")
+		(uuid "1e294fa0-8765-4818-a4ee-a120066d9abe")
 	)
 	(fp_line
 		(start -0.3 -2.55)
@@ -226,7 +227,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "d8a922f0-8d1e-40ff-a1f4-83c309408d10")
+		(uuid "19298a49-1e87-4bdc-b45d-ddc45850bb6a")
 	)
 	(fp_line
 		(start 18.1 -2.55)
@@ -236,7 +237,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "5ec076a4-8275-44b2-b01c-de0921407b12")
+		(uuid "fc61ca60-5e5b-46e8-b9b6-b6180f6b2b3a")
 	)
 	(fp_line
 		(start 18.1 1.05)
@@ -246,26 +247,13 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "1f5a9f80-d127-4f11-a445-26526ae79286")
+		(uuid "cb65ba7e-14f3-4dff-a013-0033cb2c06ce")
 	)
 	(fp_text user "A/C"
-		(at -6.5 0.5 0)
+		(at -6 0 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "59de1f24-e6c5-4152-9650-47317aab4ae4")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "-"
-		(at 4.5 -3 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "d8011d00-a8b3-47fd-9b3b-a61cf34ad4af")
+		(uuid "30615e60-5b21-456d-936e-ef382491d5c8")
 		(effects
 			(font
 				(size 1 1)
@@ -275,10 +263,23 @@
 		)
 	)
 	(fp_text user "+"
-		(at 9.5 -3 0)
+		(at 2.5 -3 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "da53773d-1217-4466-9481-00d4b827f977")
+		(uuid "eed1c139-47da-4e49-87e8-416213ddac98")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "-"
+		(at 11 -3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f18249d6-9347-44c4-977e-98715c0d956e")
 		(effects
 			(font
 				(size 1 1)
@@ -288,10 +289,10 @@
 		)
 	)
 	(fp_text user "A/C"
-		(at 19 0.5 0)
+		(at 18.5 0 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "4b65836d-740e-4a0b-b3c2-ea5c7cbe580c")
+		(uuid "65520049-76e8-4782-aec1-3e7ae6c10c05")
 		(effects
 			(font
 				(size 1 1)
@@ -301,9 +302,9 @@
 		)
 	)
 	(fp_text user "${REFERENCE}"
-		(at 7.65 -1.65 180)
+		(at 7.65 -1.5 180)
 		(layer "F.Fab")
-		(uuid "d6e1d5a6-082d-4464-a65c-7de7faab4625")
+		(uuid "44783343-667f-42cc-920d-16ee539591a9")
 		(effects
 			(font
 				(size 1 1)
@@ -317,7 +318,7 @@
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "750b1ee1-6a09-4738-b527-c0f5d058de3d")
+		(uuid "26554e1d-6079-4b3e-967c-fbd3f21def51")
 	)
 	(pad "2" thru_hole circle
 		(at 5.08 0 180)
@@ -325,7 +326,7 @@
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "286a7c27-c466-4032-bfad-d328625ee8d9")
+		(uuid "821bdb6e-4a20-41d3-ac92-aa1966d7d21b")
 	)
 	(pad "3" thru_hole circle
 		(at 10.16 0 180)
@@ -333,7 +334,7 @@
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "55739c7e-d28a-4657-94c8-8f6968a7fbdb")
+		(uuid "9b479134-9073-48af-adab-cf94ccf84035")
 	)
 	(pad "4" thru_hole circle
 		(at 15.24 0 180)
@@ -341,7 +342,7 @@
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "09eb05cf-a1a0-457d-935a-1c2aa201f060")
+		(uuid "15f52895-bff7-4c90-8ec1-3b3f34510858")
 	)
 	(embedded_fonts no)
 	(model "${KICAD10_3DMODEL_DIR}/Diode_THT.3dshapes/Diode_Bridge_Vishay_GBL.step"

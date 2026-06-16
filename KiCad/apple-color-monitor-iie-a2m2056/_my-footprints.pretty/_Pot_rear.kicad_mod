@@ -1,0 +1,215 @@
+(footprint "_Pot_rear"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Potentiometer, horizontal, Piher PT-15-H01, http://www.piher-nacesa.com/pdf/14-PT15v03.pdf")
+	(tags "Potentiometer horizontal Piher PT-15-H01")
+	(property "Reference" "RV1"
+		(at 0 -3.75 0)
+		(layer "F.SilkS")
+		(uuid "084be404-9889-4822-9986-dc9a86d81020")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "R_Potentiometer"
+		(at 0 13.75 0)
+		(layer "F.Fab")
+		(uuid "a28490a2-b680-4f47-b053-950923772ad2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4b6e2de8-34a6-433f-b75f-a74692beab4c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Potentiometer"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c2761043-226e-40c9-b9f2-dfde53030377")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "KiLib_Generator" "potentiometer/THT"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "03fa81b2-82e7-4a21-906d-e26f89afca92")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Device" "R"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2b4f446b-2660-420c-905d-97b35911e081")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Type" "POT"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9df65d89-0cfc-4a2b-ac13-245e33dc6bc6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Pins" "1=r0 2=wiper 3=r1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e8b38815-ebd3-4003-b9ae-651b51ab6c93")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "Potentiometer*")
+	(sheetname "/")
+	(sheetfile "apple-color-monitor-iie-a2m2056.kicad_sch")
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -7.140654 -2.648379)
+		(end 5.211639 12.643745)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "721789f9-8cb8-4ceb-8532-c0eb971b02af")
+	)
+	(fp_rect
+		(start 5 2)
+		(end 9 7.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "1b68e800-e1f9-49da-a530-843c34c83af8")
+	)
+	(fp_rect
+		(start -7.5 -3)
+		(end 5.5 13)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "5f0b7e2d-f114-44cf-adb5-d83202686740")
+	)
+	(fp_rect
+		(start -7 -2.5)
+		(end 5 12.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "00b51fb2-56da-464d-9462-84ce84deaf93")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.5 5 0)
+		(layer "F.Fab")
+		(uuid "99e69256-75ee-4c17-b750-bf47e4fdf61c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.34 2.34)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "89ca033b-908d-430b-96db-ea80220a690c")
+	)
+	(pad "2" thru_hole circle
+		(at -0.11 5)
+		(size 2.34 2.34)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "62ef0af6-4fe0-4254-815c-3a818d917d5c")
+	)
+	(pad "3" thru_hole circle
+		(at 0 10)
+		(size 2.34 2.34)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c0a44467-047f-4c33-b4b4-545a0db54f56")
+	)
+	(pad "4" thru_hole circle
+		(at -6 2)
+		(size 2.34 2.34)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "becfec2e-0124-4219-9de1-7c74df1a1b2d")
+	)
+	(pad "5" thru_hole circle
+		(at -6 8)
+		(size 2.34 2.34)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c111726e-067f-46bb-b292-190ee9166259")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Piher_PT-15-H01_Horizontal.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,215 @@
+(footprint "CP_Radial_D5.0mm_P5.00mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "CP, Radial series, Radial, pin pitch=5.00mm, diameter=8mm, height=16mm, Electrolytic Capacitor")
+	(tags "CP Radial series Radial pin pitch 5.00mm diameter 8mm height 16mm Electrolytic Capacitor")
+	(property "Reference" "C211"
+		(at 2.478474 1.284515 0)
+		(layer "F.SilkS")
+		(uuid "d9383533-6692-43a4-80a8-266fbb549aaa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C"
+		(at 1 2 0)
+		(layer "F.Fab")
+		(uuid "8b397a34-5966-484b-b04c-cd7599c08884")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2526b30b-4410-44b7-9ccd-0ef997c7115b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4ffeb1e7-951c-4eeb-a046-58d309b3e8da")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "KiLib_Generator" "capacitor/THT/other"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "79e1f97c-ba6e-4d94-b71c-e7e6e2bf728e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "CP_*")
+	(sheetname "/")
+	(sheetfile "apple-color-monitor-iie-a2m2056.kicad_sch")
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 1.088287 -1.37137)
+		(end 1.888287 -1.37137)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c7f4255f-e700-4990-b69c-3a41755f98be")
+	)
+	(fp_line
+		(start 1.488287 -1.77137)
+		(end 1.488287 -0.97137)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "34d37a69-751a-462c-ae5a-b6c17de622b2")
+	)
+	(fp_rect
+		(start 2 -1)
+		(end 2.4 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "84a2019b-a201-42b3-b5a7-f2dc396140bb")
+	)
+	(fp_rect
+		(start 2.6 -1)
+		(end 3 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "8a8b1a3a-ee31-4f50-880f-1f809ffb72a5")
+	)
+	(fp_arc
+		(start 0.472477 -1.48628)
+		(mid 2.535069 -2.513692)
+		(end 4.568197 -1.429139)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c184dc27-b98a-4aa7-a341-133d7d60211d")
+	)
+	(fp_arc
+		(start 4.525316 1.478429)
+		(mid 2.462724 2.505841)
+		(end 0.429596 1.421288)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7cda4e9e-60ce-4732-bfc0-5ca3a4639bdf")
+	)
+	(fp_circle
+		(center 2.5 0)
+		(end 5.1 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "02f170f1-c687-44ac-a5ac-80b794e1e27e")
+	)
+	(fp_line
+		(start 1.08165 -1.364362)
+		(end 1.88165 -1.364362)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a6d2bc18-af20-458a-a085-f2a3b5e0b576")
+	)
+	(fp_line
+		(start 1.48165 -1.764362)
+		(end 1.48165 -0.964362)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "693f8905-8161-4477-aa8f-7f7ceb688db0")
+	)
+	(fp_circle
+		(center 2.5 0)
+		(end 4.9 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "05a5a810-8e53-4dc5-8d46-3a98588c639a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.5 0 0)
+		(layer "F.Fab")
+		(uuid "eaf016e6-366d-4a96-acb4-6f578b1b8364")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15625)
+		(uuid "453366e1-1ada-4e88-8b03-a3b597eb7925")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c68efe40-fbbc-44c2-8f3e-3cac4e3314fb")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D8.0mm_P5.00mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

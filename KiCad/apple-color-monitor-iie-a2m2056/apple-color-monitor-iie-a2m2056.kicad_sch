@@ -9113,7 +9113,7 @@
 					)
 				)
 			)
-			(property "Footprint" "apple-color-monitor-library:_DiodeBridge"
+			(property "Footprint" "_my-footprints:_DiodeBridge"
 				(at 3.81 3.175 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -9281,7 +9281,7 @@
 			)
 			(symbol "B40C3x00-2200A_1_1"
 				(pin passive line
-					(at 0 7.62 270)
+					(at 0 -7.62 90)
 					(length 2.54)
 					(name ""
 						(effects
@@ -9299,9 +9299,9 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 0 0)
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "-"
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9317,9 +9317,9 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
+					(at -7.62 0 0)
 					(length 2.54)
-					(name "+"
+					(name "-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9335,7 +9335,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -7.62 90)
+					(at 0 7.62 270)
 					(length 2.54)
 					(name ""
 						(effects
@@ -29772,7 +29772,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "apple-color-monitor-library:_R_Axial_P20.0mm"
+		(property "Footprint" "_my-footprints:_R_Axial_P20.0mm"
 			(at 109.728 499.11 90)
 			(hide yes)
 			(show_name no)
@@ -38512,7 +38512,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "?????"
+		(property "Value" "G-BIAS"
 			(at 842.518 131.318 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39365,7 +39365,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "?????"
+		(property "Value" "B-DRIVER"
 			(at 900.938 207.772 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51385,7 +51385,7 @@
 				)
 			)
 		)
-		(property "Footprint" "apple-color-monitor-library:_DiodeBridge"
+		(property "Footprint" "_my-footprints:_DiodeBridge"
 			(at 81.915 502.92 0)
 			(hide yes)
 			(show_name no)
@@ -51810,7 +51810,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "?????"
+		(property "Value" "R-BIAS"
 			(at 856.488 234.188 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -61642,7 +61642,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "?????"
+		(property "Value" "B-BIAS"
 			(at 855.218 178.308 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -63043,7 +63043,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "?????"
+		(property "Value" "R-DRIVER"
 			(at 871.728 188.722 90)
 			(show_name no)
 			(do_not_autoplace no)

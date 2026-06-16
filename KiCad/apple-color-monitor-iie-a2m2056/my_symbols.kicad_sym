@@ -759,6 +759,14 @@
 			)
 		)
 		(symbol "TA7644BP_1_1"
+			(text "TA7644BP"
+				(at -0.254 -0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(pin input line
 				(at -63.5 -26.67 90)
 				(length 3.81)

@@ -287,7 +287,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "TPX1"
-			(at 4.826 1.27 0)
+			(at 1.778 1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -298,7 +298,7 @@
 			)
 		)
 		(property "Value" "-testpoint"
-			(at -0.6349 -1.27 90)
+			(at 3.1749 -1.27 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -310,7 +310,7 @@
 			)
 		)
 		(property "Footprint" "_my-footprints:-testpoint"
-			(at 0 -4.572 0)
+			(at -1.27 -4.572 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -321,7 +321,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at -1.27 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -332,7 +332,7 @@
 			)
 		)
 		(property "Description" "Testpoint connector"
-			(at 0 3.81 0)
+			(at -1.27 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -375,31 +375,8 @@
 			)
 		)
 		(symbol "-testpoint_1_1"
-			(rectangle
-				(start 0.8636 0.127)
-				(end 0 -0.127)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 0) (xy 0.8636 0)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(circle
-				(center 2.8969 1.3249)
+				(center -0.0973 1.3444)
 				(radius 1.016)
 				(stroke
 					(width 0)
@@ -409,8 +386,31 @@
 					(type none)
 				)
 			)
+			(polyline
+				(pts
+					(xy 1.27 0) (xy 1.6764 0)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 1.6764 0.127)
+				(end 2.54 -0.127)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
 			(pin passive line
-				(at 5.08 0 180)
+				(at -2.54 0 0)
 				(length 3.81)
 				(name "TP"
 					(effects

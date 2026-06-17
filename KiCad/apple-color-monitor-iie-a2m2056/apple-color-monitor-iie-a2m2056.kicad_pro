@@ -709,7 +709,7 @@
         "uuid": "f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
       }
     ],
-    "used_designators": "R417,R602-603,VR304,VR604-605,NT1,J1,J115,J605,#PWR98-140",
+    "used_designators": "??V(AC)1-6,R417,R602-603,VR304,VR604-605,NT1,J1,J115,J605,#PWR76,#PWR98-151",
     "variants": []
   },
   "sheets": [

@@ -617,12 +617,54 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "KiLib_Generator",
+          "name": "KiLib_Generator",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field5",
+          "name": "Field5",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -667,7 +709,7 @@
         "uuid": "f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
       }
     ],
-    "used_designators": "R417,R602-603,VR304,VR604-605,J1,J115,J605,#PWR98-118",
+    "used_designators": "R417,R602-603,VR304,VR604-605,NT1,J1,J115,J605,#PWR98-134",
     "variants": []
   },
   "sheets": [

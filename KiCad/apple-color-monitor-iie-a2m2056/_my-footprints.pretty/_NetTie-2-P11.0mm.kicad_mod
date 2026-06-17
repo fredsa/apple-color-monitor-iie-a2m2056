@@ -1,0 +1,90 @@
+(footprint "_NetTie-2-P11.0mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Net tie, 2 pin, 1.0mm round THT pads")
+	(tags "net tie")
+	(property "Reference" "REF**"
+		(at 1.3 -1.6 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1b7762ea-4c65-4ab5-b116-146e852ed039")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "_NetTie-2-P11.0mm"
+		(at 1.3 1.6 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "be83ffb2-b15c-4502-a31e-6016afb2efa0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "28c9f7f2-b4b0-4938-ae49-9544b6540b04")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d651c4f9-23b1-4f23-ba26-d97cefb66b4b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(net_tie_pad_groups "1, 2")
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_poly
+		(pts
+			(xy 0 -0.65) (xy 11 -0.65) (xy 11 0.65) (xy 0 0.65)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Cu")
+		(uuid "1699dfa7-bd5a-46be-b93f-dd7a5248d110")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.3 1.3)
+		(drill 0.7)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "f12c8502-6790-4185-9ef8-6d497f25bc09")
+	)
+	(pad "2" thru_hole circle
+		(at 11 0)
+		(size 1.3 1.3)
+		(drill 0.7)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "18c2bb38-07b1-4cac-8605-cd83ef251537")
+	)
+	(embedded_fonts no)
+)

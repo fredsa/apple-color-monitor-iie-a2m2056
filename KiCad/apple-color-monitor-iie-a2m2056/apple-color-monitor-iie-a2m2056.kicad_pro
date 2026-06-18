@@ -469,7 +469,7 @@
       "label_dangling": "error",
       "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
-      "lib_symbol_mismatch": "warning",
+      "lib_symbol_mismatch": "ignore",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
@@ -709,7 +709,7 @@
         "uuid": "f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
       }
     ],
-    "used_designators": "xD504,TP_GNDPWR2,??V(AC)1-6,R417,R514,R519-526,R602-603,VR304,VR502,VR604-605,NT1,J1,J115,J605,D509-511,C515,Q505-506,#PWR76,#PWR96,#PWR98-158",
+    "used_designators": "C515,xD504,#FLG1-3,TP_GNDPWR2,??V(AC)1-6,R417,R514,R519-526,R602-603,VR304,VR502,VR604-605,NT1,J1,J115,J605,#PWR76,#PWR96,#PWR98-161,D509-511,Q505-506",
     "variants": []
   },
   "sheets": [

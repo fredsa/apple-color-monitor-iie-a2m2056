@@ -18,6 +18,18 @@
   </tr>
 </table>
 
+<table>
+  <caption>Neck circuit board (72 x 85 mm)</caption>
+  <tr>
+    <td>Top side</td>
+    <td>Bottom side (flipped)</td>
+  </tr>
+  <tr>
+    <td><img width="408px" src="photos/neck-pcb-top.jpg"></td>
+    <td><img width="408px" src="photos/neck-pcb-bottom-flipped.jpg"></td>
+  </tr>
+</table>
+
 
 Model number `A2M2056`
 

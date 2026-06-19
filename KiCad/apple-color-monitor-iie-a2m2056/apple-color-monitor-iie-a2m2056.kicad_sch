@@ -7371,7 +7371,6 @@
 		(symbol "Connector:Conn_01x06_Pin"
 			(pin_names
 				(offset 1.016)
-				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -7379,7 +7378,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "CN20"
-				(at 2.54 8.636 0)
+				(at 0 8.636 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -7411,7 +7410,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 0 0)
+				(at 2.54 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -7466,74 +7465,8 @@
 			)
 			(symbol "Conn_01x06_Pin_1_1"
 				(rectangle
-					(start 0 -18.923)
-					(end 0.8636 -19.177)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 25.527)
-					(end 0 25.273)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 12.827)
-					(end 0 12.573)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -12.573)
-					(end 0 -12.827)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -25.273)
-					(end 0 -25.527)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 1.27 27.94)
-					(end 3.81 -29.21)
+					(start -1.27 27.94)
+					(end 1.27 -27.94)
 					(stroke
 						(width 0)
 						(type default)
@@ -7544,7 +7477,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 25.4) (xy 0.8636 25.4)
+						(xy 1.27 25.4) (xy 1.6764 25.4)
 					)
 					(stroke
 						(width 0.1524)
@@ -7556,7 +7489,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 12.7) (xy 0.8636 12.7)
+						(xy 1.27 12.7) (xy 1.6764 12.7)
 					)
 					(stroke
 						(width 0.1524)
@@ -7568,7 +7501,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy 0.8636 0)
+						(xy 1.27 0) (xy 1.6764 0)
 					)
 					(stroke
 						(width 0.1524)
@@ -7580,7 +7513,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -12.7) (xy 0.8636 -12.7)
+						(xy 1.27 -12.7) (xy 1.6764 -12.7)
 					)
 					(stroke
 						(width 0.1524)
@@ -7592,7 +7525,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -19.05) (xy 0.8636 -19.05)
+						(xy 1.27 -19.05) (xy 1.6764 -19.05)
 					)
 					(stroke
 						(width 0.1524)
@@ -7604,7 +7537,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -25.4) (xy 0.8636 -25.4)
+						(xy 1.27 -25.4) (xy 1.6764 -25.4)
 					)
 					(stroke
 						(width 0.1524)
@@ -7612,12 +7545,94 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(rectangle
+					(start 1.6764 25.527)
+					(end 2.54 25.273)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.6764 12.827)
+					(end 2.54 12.573)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.6764 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.6764 -12.573)
+					(end 2.54 -12.827)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.6764 -25.273)
+					(end 2.54 -25.527)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 2.54 -18.923)
+					(end 1.6764 -19.177)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(text "(!)"
+					(at -3.048 27.178 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "(!)"
+					(at -3.048 14.224 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
 					)
 				)
 				(pin passive line
-					(at 5.08 12.7 180)
+					(at -2.54 12.7 0)
 					(length 3.81)
-					(name "Pin_2"
+					(name "YLW"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7633,9 +7648,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 25.4 180)
+					(at -2.54 25.4 0)
 					(length 3.81)
-					(name "Pin_1"
+					(name "GRN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7651,9 +7666,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -12.7 180)
+					(at -2.54 -12.7 0)
 					(length 3.81)
-					(name "Pin_4"
+					(name "BLU"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7669,9 +7684,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -25.4 180)
+					(at -2.54 -25.4 0)
 					(length 3.81)
-					(name "Pin_6"
+					(name "RED"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8691,7 +8706,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "CN20_plug1"
-				(at -1.27 8.128 0)
+				(at -0.254 6.604 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -8712,7 +8727,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at -2.54 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -8723,7 +8738,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 0 0)
+				(at -2.54 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -8768,8 +8783,8 @@
 			)
 			(symbol "Conn_01x06_1_1"
 				(rectangle
-					(start -3.81 29.21)
-					(end -1.27 -27.94)
+					(start -1.27 27.94)
+					(end 1.27 -27.94)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -8780,7 +8795,7 @@
 				)
 				(rectangle
 					(start -1.27 25.527)
-					(end 0 25.273)
+					(end -2.54 25.273)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -8791,7 +8806,7 @@
 				)
 				(rectangle
 					(start -1.27 12.827)
-					(end 0 12.573)
+					(end -2.54 12.573)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -8802,7 +8817,7 @@
 				)
 				(rectangle
 					(start -1.27 0.127)
-					(end 0 -0.127)
+					(end -2.54 -0.127)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -8813,7 +8828,7 @@
 				)
 				(rectangle
 					(start -1.27 -12.573)
-					(end 0 -12.827)
+					(end -2.54 -12.827)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -8824,7 +8839,7 @@
 				)
 				(rectangle
 					(start -1.27 -18.923)
-					(end 0 -19.177)
+					(end -2.54 -19.177)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -8835,7 +8850,7 @@
 				)
 				(rectangle
 					(start -1.27 -25.273)
-					(end 0 -25.527)
+					(end -2.54 -25.527)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -8844,8 +8859,24 @@
 						(type none)
 					)
 				)
+				(text "(!)"
+					(at 3.302 27.178 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "(!)"
+					(at 3.302 14.478 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
 				(pin passive line
-					(at -5.08 25.4 0)
+					(at 2.54 12.7 180)
 					(length 3.81)
 					(name "YLW"
 						(effects
@@ -8863,7 +8894,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 12.7 0)
+					(at 2.54 25.4 180)
 					(length 3.81)
 					(name "GRN"
 						(effects
@@ -8881,7 +8912,7 @@
 					)
 				)
 				(pin no_connect line
-					(at -5.08 0 0)
+					(at 2.54 0 180)
 					(length 3.81)
 					(name "x"
 						(effects
@@ -8899,7 +8930,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -12.7 0)
+					(at 2.54 -12.7 180)
 					(length 3.81)
 					(name "BLU"
 						(effects
@@ -8917,7 +8948,7 @@
 					)
 				)
 				(pin no_connect line
-					(at -5.08 -19.05 0)
+					(at 2.54 -19.05 180)
 					(length 3.81)
 					(name "x"
 						(effects
@@ -8935,7 +8966,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -25.4 0)
+					(at 2.54 -25.4 180)
 					(length 3.81)
 					(name "RED"
 						(effects
@@ -22799,7 +22830,7 @@
 	)
 	(text_box "ISOLATED"
 		(exclude_from_sim no)
-		(at 801.37 504.825 0)
+		(at 805.18 504.825 0)
 		(size 6.35 1.905)
 		(margins 0.127 0.127 0.127 0.127)
 		(stroke
@@ -22823,7 +22854,7 @@
 	)
 	(text_box "LIVE"
 		(exclude_from_sim no)
-		(at 802.64 543.4686 0)
+		(at 806.45 543.4686 0)
 		(size 5.08 2.6314)
 		(margins 0.127 0.127 0.127 0.127)
 		(stroke
@@ -25809,7 +25840,7 @@
 	)
 	(wire
 		(pts
-			(xy 814.07 538.48) (xy 814.07 551.18)
+			(xy 817.88 538.48) (xy 817.88 551.18)
 		)
 		(stroke
 			(width 0)
@@ -27059,7 +27090,7 @@
 	)
 	(wire
 		(pts
-			(xy 806.45 500.38) (xy 801.37 500.38)
+			(xy 810.26 500.38) (xy 805.18 500.38)
 		)
 		(stroke
 			(width 0)
@@ -28019,7 +28050,7 @@
 	)
 	(wire
 		(pts
-			(xy 814.07 500.38) (xy 814.07 513.08)
+			(xy 817.88 500.38) (xy 817.88 513.08)
 		)
 		(stroke
 			(width 0)
@@ -28419,7 +28450,7 @@
 	)
 	(wire
 		(pts
-			(xy 814.07 513.08) (xy 801.37 513.08)
+			(xy 817.88 513.08) (xy 805.18 513.08)
 		)
 		(stroke
 			(width 0)
@@ -29179,7 +29210,7 @@
 	)
 	(wire
 		(pts
-			(xy 814.07 551.18) (xy 801.37 551.18)
+			(xy 817.88 551.18) (xy 805.18 551.18)
 		)
 		(stroke
 			(width 0)
@@ -30249,7 +30280,7 @@
 	)
 	(wire
 		(pts
-			(xy 801.37 538.48) (xy 806.45 538.48)
+			(xy 805.18 538.48) (xy 810.26 538.48)
 		)
 		(stroke
 			(width 0)
@@ -36047,7 +36078,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 810.26 538.48 90)
+		(at 814.07 538.48 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -36058,7 +36089,7 @@
 		(fields_autoplaced yes)
 		(uuid "0c0b07ab-5cea-4c3d-92cc-b545499a5155")
 		(property "Reference" "H_YOKE1"
-			(at 810.26 535.94 90)
+			(at 814.07 535.94 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36068,7 +36099,7 @@
 			)
 		)
 		(property "Value" "L"
-			(at 811.5299 537.21 0)
+			(at 815.3399 537.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36080,7 +36111,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 810.26 538.48 0)
+			(at 814.07 538.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36091,7 +36122,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 810.26 538.48 0)
+			(at 814.07 538.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36102,7 +36133,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 810.26 538.48 0)
+			(at 814.07 538.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37213,8 +37244,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x06_Pin")
-		(at 789.94 525.78 0)
-		(mirror y)
+		(at 787.4 525.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -37234,7 +37264,7 @@
 			)
 		)
 		(property "Value" "Conn_01x06_Pin"
-			(at 789.305 517.398 0)
+			(at 788.035 517.398 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37245,7 +37275,7 @@
 			)
 		)
 		(property "Footprint" "_my-footprints:_CN20_pins"
-			(at 789.94 525.78 0)
+			(at 787.4 525.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37267,7 +37297,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated"
-			(at 789.94 525.78 0)
+			(at 787.4 525.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -68052,7 +68082,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 810.26 500.38 90)
+		(at 814.07 500.38 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -68063,7 +68093,7 @@
 		(fields_autoplaced yes)
 		(uuid "b6a1101a-28da-42ef-bba1-5855e57f088e")
 		(property "Reference" "V_YOKE1"
-			(at 810.26 497.84 90)
+			(at 814.07 497.84 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -68073,7 +68103,7 @@
 			)
 		)
 		(property "Value" "L"
-			(at 811.5299 499.11 0)
+			(at 815.3399 499.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -68085,7 +68115,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 810.26 500.38 0)
+			(at 814.07 500.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -68096,7 +68126,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 810.26 500.38 0)
+			(at 814.07 500.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -68107,7 +68137,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 810.26 500.38 0)
+			(at 814.07 500.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -73612,8 +73642,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x06")
-		(at 796.29 525.78 0)
-		(mirror y)
+		(at 802.64 525.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -73623,7 +73652,7 @@
 		(dnp no)
 		(uuid "d4c68c2b-cc7e-4d23-8754-6cda4648396a")
 		(property "Reference" "CN20_plug1"
-			(at 798.576 519.176 90)
+			(at 802.386 519.176 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -73633,7 +73662,7 @@
 			)
 		)
 		(property "Value" "Conn_01x06"
-			(at 796.29 516.89 0)
+			(at 802.64 516.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -73644,7 +73673,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 796.29 525.78 0)
+			(at 800.1 525.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -73655,7 +73684,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 796.29 525.78 0)
+			(at 800.1 525.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -73666,7 +73695,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 796.29 525.78 0)
+			(at 802.64 525.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

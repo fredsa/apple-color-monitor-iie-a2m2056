@@ -709,7 +709,7 @@
         "uuid": "f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
       }
     ],
-    "used_designators": "D509,C507,C511,C515,C517,CN10,#PWR164,#FLG3-5",
+    "used_designators": "L208,JP1,R703-704,R823,R904,R925,Q1,#PWR164,D509,C108,C411,C507,C511,C515,C517,C608,C904,CN10,CN17,#FLG3-5",
     "variants": []
   },
   "sheets": [

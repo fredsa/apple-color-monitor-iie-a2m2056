@@ -1,0 +1,224 @@
+(footprint "R_Axial_side_shift_P20.32mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=20.32mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
+	(tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 20.32mm 0.5W = 1/2W length 9mm diameter 3.2mm")
+	(property "Reference" "R"
+		(at 10.16 3.225 180)
+		(layer "F.SilkS")
+		(uuid "7b521779-e1bb-4883-b49c-3a46ca27795b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "R"
+		(at 10.16 2.72 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "82fd4c1b-019d-460c-95f3-9ec4b7a99464")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "62a4c291-9471-4699-8300-4a85c7cccf88")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Resistor"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cb558ac3-7eb1-45f8-9c2f-5b23597ef0ca")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "KiLib_Generator" "resistor/THT"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7494792c-28c1-493c-9a94-cbdbdc110dbe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "R_*")
+	(sheetname "/")
+	(sheetfile "apple-color-monitor-iie-a2m2056.kicad_sch")
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 2.5 3.1)
+		(end 5.54 3.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8fc634db-2104-4df3-972b-07b5aab5ebfd")
+	)
+	(fp_line
+		(start 17.5 3.1)
+		(end 14.78 3.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4750f557-9d17-4999-b34e-e0178f2af99d")
+	)
+	(fp_rect
+		(start 5.54 2.363604)
+		(end 14.78 3.924568)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "fc7340f3-2f26-4dfa-8d2c-2f852ef19b1a")
+	)
+	(fp_line
+		(start 0.5 1)
+		(end 2 2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "de7d0dce-8e26-4149-9a6e-4d2f6a18e385")
+	)
+	(fp_line
+		(start 18 2.5)
+		(end 19.5 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "bc4b3ff1-e215-4085-bbcc-0be9ac66cd5a")
+	)
+	(fp_rect
+		(start -1 -1)
+		(end 1 1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "c1508e39-ec7f-43c8-9a2d-4c45b4cacf15")
+	)
+	(fp_rect
+		(start 1.5 2.227209)
+		(end 18 4.030653)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "36d424fd-cbc8-4881-bdb9-d6352150c9e1")
+	)
+	(fp_rect
+		(start 19 -1)
+		(end 21 1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "778596f0-8fd1-4491-bd5b-134d1142f58c")
+	)
+	(fp_line
+		(start 1.5 3.1)
+		(end 5.66 3.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2c4dc735-b388-4ad8-b20d-b33320b0aa57")
+	)
+	(fp_line
+		(start 18 3.1)
+		(end 14.66 3.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4308e854-4c57-48b5-817d-e8999b509fdb")
+	)
+	(fp_rect
+		(start 5.66 2.5)
+		(end 14.66 3.803329)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "76030806-f30f-4aca-b656-9b7cf0ef80a3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 10.16 3.1 180)
+		(layer "F.Fab")
+		(uuid "66bd1775-b3e1-4722-8145-05ca20372333")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bb2588a6-edd3-4a15-bc72-6faae5cd6003")
+	)
+	(pad "2" thru_hole circle
+		(at 20.003971 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fe242260-e492-4d5d-9ac6-a4bd4c6f4d39")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0309_L9.0mm_D3.2mm_P20.32mm_Horizontal.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

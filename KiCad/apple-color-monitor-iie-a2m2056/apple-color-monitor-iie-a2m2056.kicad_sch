@@ -12,6 +12,7 @@
 		(comment 1 "https://github.com/fredsa/apple-color-monitor-iie-a2m2056")
 		(comment 2 "Measurements taken from working monitor display color bars on Apple II plus.")
 		(comment 3 "Flyback configuration possibly incorrect. Many component values unspecified.")
+		(comment 4 "CHASSIS NO.: TWE 3003-705-910, REV: 4")
 	)
 	(lib_symbols
 		(symbol "-my-symbols:-crt-neck-connector"

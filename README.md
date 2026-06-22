@@ -1,4 +1,4 @@
-# Apple ColorMonitor IIe (A2M2056)
+# Apple ColorMonitor IIe (A2M2056) "S Series"
 
 - KiCad schematic reverse-engineered by Fred Sauer in 2026.
 

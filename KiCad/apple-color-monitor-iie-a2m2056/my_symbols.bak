@@ -281,7 +281,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "CN"
-			(at 0 1.016 0)
+			(at 0 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -291,7 +291,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 -1.27 0)
+			(at 0 -3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -301,7 +301,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 -1.27 0)
+			(at 0 -3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -312,7 +312,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 -1.27 0)
+			(at 0 -3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -323,7 +323,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 -1.27 0)
+			(at 0 -3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -336,7 +336,7 @@
 		(symbol "-crt-neck-connector_0_1"
 			(rectangle
 				(start -2.54 0)
-				(end 2.54 -44.45)
+				(end 2.54 -46.99)
 				(stroke
 					(width 0)
 					(type default)
@@ -347,7 +347,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.5382 -37.95) (xy 4.4195 -37.95)
+					(xy 2.5382 -40.49) (xy 4.4195 -40.49)
 				)
 				(stroke
 					(width 0)
@@ -359,7 +359,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.5382 -41.76) (xy 4.4195 -41.76)
+					(xy 2.5382 -44.3) (xy 4.4195 -44.3)
 				)
 				(stroke
 					(width 0)
@@ -371,7 +371,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.5389 -15.0948) (xy 4.4202 -15.0948)
+					(xy 2.5389 -17.6348) (xy 4.4202 -17.6348)
 				)
 				(stroke
 					(width 0)
@@ -383,7 +383,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.5398 -26.522) (xy 4.4211 -26.522)
+					(xy 2.5398 -29.062) (xy 4.4211 -29.062)
 				)
 				(stroke
 					(width 0)
@@ -395,7 +395,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.5411 -34.139) (xy 4.4224 -34.139)
+					(xy 2.5411 -36.679) (xy 4.4224 -36.679)
 				)
 				(stroke
 					(width 0)
@@ -407,7 +407,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.5418 -11.282) (xy 4.4231 -11.282)
+					(xy 2.5418 -13.822) (xy 4.4231 -13.822)
 				)
 				(stroke
 					(width 0)
@@ -419,7 +419,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.5422 -22.712) (xy 4.4235 -22.712)
+					(xy 2.5422 -25.252) (xy 4.4235 -25.252)
 				)
 				(stroke
 					(width 0)
@@ -431,7 +431,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.5431 -38.2468) (xy 4.4244 -38.2468)
+					(xy 2.5431 -40.7868) (xy 4.4244 -40.7868)
 				)
 				(stroke
 					(width 0)
@@ -443,7 +443,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.5431 -42.0568) (xy 4.4244 -42.0568)
+					(xy 2.5431 -44.5968) (xy 4.4244 -44.5968)
 				)
 				(stroke
 					(width 0)
@@ -455,7 +455,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.5438 -15.3916) (xy 4.4251 -15.3916)
+					(xy 2.5438 -17.9316) (xy 4.4251 -17.9316)
 				)
 				(stroke
 					(width 0)
@@ -467,7 +467,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.5443 -18.9005) (xy 4.4256 -18.9005)
+					(xy 2.5443 -21.4405) (xy 4.4256 -21.4405)
 				)
 				(stroke
 					(width 0)
@@ -479,7 +479,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.5444 -3.6583) (xy 4.4257 -3.6583)
+					(xy 2.5444 -2.3883) (xy 4.4257 -2.3883)
 				)
 				(stroke
 					(width 0)
@@ -491,7 +491,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.5444 -7.4683) (xy 4.4257 -7.4683)
+					(xy 2.5444 -6.1983) (xy 4.4257 -6.1983)
 				)
 				(stroke
 					(width 0)
@@ -503,7 +503,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.5447 -26.8188) (xy 4.426 -26.8188)
+					(xy 2.5444 -10.0083) (xy 4.4257 -10.0083)
 				)
 				(stroke
 					(width 0)
@@ -515,7 +515,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.546 -34.4358) (xy 4.4273 -34.4358)
+					(xy 2.5447 -29.3588) (xy 4.426 -29.3588)
 				)
 				(stroke
 					(width 0)
@@ -527,7 +527,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.5462 -30.332) (xy 4.4275 -30.332)
+					(xy 2.546 -36.9758) (xy 4.4273 -36.9758)
 				)
 				(stroke
 					(width 0)
@@ -539,7 +539,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.5467 -11.5788) (xy 4.428 -11.5788)
+					(xy 2.5462 -32.872) (xy 4.4275 -32.872)
 				)
 				(stroke
 					(width 0)
@@ -551,7 +551,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.5471 -23.0088) (xy 4.4284 -23.0088)
+					(xy 2.5467 -14.1188) (xy 4.428 -14.1188)
 				)
 				(stroke
 					(width 0)
@@ -563,7 +563,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.5492 -19.1973) (xy 4.4305 -19.1973)
+					(xy 2.5471 -25.5488) (xy 4.4284 -25.5488)
 				)
 				(stroke
 					(width 0)
@@ -575,7 +575,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.5493 -3.9551) (xy 4.4306 -3.9551)
+					(xy 2.5492 -21.7373) (xy 4.4305 -21.7373)
 				)
 				(stroke
 					(width 0)
@@ -587,7 +587,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.5493 -7.7651) (xy 4.4306 -7.7651)
+					(xy 2.5493 -2.6851) (xy 4.4306 -2.6851)
 				)
 				(stroke
 					(width 0)
@@ -599,7 +599,31 @@
 			)
 			(polyline
 				(pts
-					(xy 2.5511 -30.6288) (xy 4.4324 -30.6288)
+					(xy 2.5493 -6.4951) (xy 4.4306 -6.4951)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.5493 -10.3051) (xy 4.4306 -10.3051)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.5511 -33.1688) (xy 4.4324 -33.1688)
 				)
 				(stroke
 					(width 0)
@@ -612,9 +636,9 @@
 		)
 		(symbol "-crt-neck-connector_1_1"
 			(pin passive line
-				(at -3.81 -3.81 0)
+				(at -3.81 -2.54 0)
 				(length 7.62)
-				(name "GND"
+				(name "FOCUS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -630,9 +654,9 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 -7.62 0)
+				(at -3.81 -6.35 0)
 				(length 7.62)
-				(name "GND"
+				(name "G"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -648,9 +672,27 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 -11.43 0)
+				(at -3.81 -10.16 0)
 				(length 7.62)
-				(name "GND"
+				(name "G"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -3.81 -13.97 0)
+				(length 7.62)
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -666,9 +708,9 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 -15.24 0)
+				(at -3.81 -17.78 0)
 				(length 7.62)
-				(name "GND"
+				(name "G"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -684,7 +726,7 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 -19.05 0)
+				(at -3.81 -21.59 0)
 				(length 7.62)
 				(name "GK"
 					(effects
@@ -702,7 +744,7 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 -22.86 0)
+				(at -3.81 -25.4 0)
 				(length 7.62)
 				(name "S"
 					(effects
@@ -720,7 +762,7 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 -26.67 0)
+				(at -3.81 -29.21 0)
 				(length 7.62)
 				(name "RK"
 					(effects
@@ -738,7 +780,7 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 -30.48 0)
+				(at -3.81 -33.02 0)
 				(length 7.62)
 				(name "H"
 					(effects
@@ -756,7 +798,7 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 -34.29 0)
+				(at -3.81 -36.83 0)
 				(length 7.62)
 				(name "H"
 					(effects
@@ -774,7 +816,7 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 -38.1 0)
+				(at -3.81 -40.64 0)
 				(length 7.62)
 				(name "BK"
 					(effects
@@ -791,10 +833,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -3.81 -41.91 0)
+			(pin no_connect line
+				(at -3.81 -44.45 0)
 				(length 7.62)
-				(name "BK"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2413,6 +2455,600 @@
 					)
 				)
 				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "_Transformer_5pin"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "T103"
+			(at -5.08 5.334 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "_Transformer_5pin"
+			(at 0 5.588 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_my-footprints:_Transformer_Isolation_10x12mm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Transformer, single primary, single secondary"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "transformer coil magnet"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "_Transformer_5pin_0_1"
+			(polyline
+				(pts
+					(xy -3.3241 2.184) (xy -3.7046 1.38)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.27 3.81)
+				(mid -1.656 2.9336)
+				(end -2.54 2.5654)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.27 1.27)
+				(mid -1.656 0.3936)
+				(end -2.54 0.0254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -2.54 5.08)
+				(mid -1.642 4.708)
+				(end -1.27 3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -2.54 2.54)
+				(mid -1.642 2.168)
+				(end -1.27 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.4125 0.2503) (xy -3.5001 1.7996)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "_Transformer_5pin_1_1"
+			(pin passive line
+				(at -3.81 2.54 0)
+				(length 1.27)
+				(name "AA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -6.35 0 0)
+				(length 3.81)
+				(name "AB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 180)
+				(length 2.54)
+				(name "SB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 2.54 180)
+				(length 2.54)
+				(name "SA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 5.08 180)
+				(length 2.54)
+				(name "SA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "_Transformer_7pin"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "T103"
+			(at -3.556 -8.382 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "_Transformer_7pin"
+			(at 0 5.588 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_my-footprints:_Transformer_Isolation_10x12mm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Transformer, single primary, single secondary"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "transformer coil magnet"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "_Transformer_7pin_0_1"
+			(polyline
+				(pts
+					(xy -3.3241 2.184) (xy -3.7046 1.38)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.27 1.27)
+				(mid -1.656 0.3936)
+				(end -2.54 0.0254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.27 -1.27)
+				(mid -1.656 -2.1464)
+				(end -2.54 -2.5146)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.27 -3.81)
+				(mid -1.656 -4.6864)
+				(end -2.54 -5.0546)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -2.54 2.54)
+				(mid -1.642 2.168)
+				(end -1.27 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -2.54 0)
+				(mid -1.642 -0.372)
+				(end -1.27 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -2.54 -2.54)
+				(mid -1.642 -2.912)
+				(end -1.27 -3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.2519 -6.3941)
+				(mid -1.6379 -7.2705)
+				(end -2.5219 -7.6387)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.2519 -8.9341)
+				(mid -1.6379 -9.8105)
+				(end -2.5219 -10.1787)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -2.5219 -5.1241)
+				(mid -1.6239 -5.4961)
+				(end -1.2519 -6.3941)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -2.5219 -7.6641)
+				(mid -1.6239 -8.0361)
+				(end -1.2519 -8.9341)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.4125 0.2503) (xy -3.5001 1.7996)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "_Transformer_7pin_1_1"
+			(pin passive line
+				(at -6.35 2.54 0)
+				(length 3.81)
+				(name "AA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -6.35 0 0)
+				(length 3.81)
+				(name "AB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -3.81 -5.08 0)
+				(length 1.27)
+				(name "SA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 1.27 -10.16 180)
+				(length 3.81)
+				(name "SA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 1.27 -7.62 180)
+				(length 3.81)
+				(name "SB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 1.27 -5.08 180)
+				(length 3.81)
+				(name "SB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 1.27 -2.54 180)
+				(length 3.81)
+				(name "SB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)

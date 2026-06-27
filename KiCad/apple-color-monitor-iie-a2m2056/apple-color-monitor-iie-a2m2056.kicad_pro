@@ -709,7 +709,7 @@
         "uuid": "f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
       }
     ],
-    "used_designators": "#FLG7-11,CRT_H_10,NT5-8,#PWR122,#PWR138,#PWR141-142,#PWR144,#PWR147,#PWR154-156,#PWR158-160,#PWR165-167,#PWR174-175,#PWR184-191",
+    "used_designators": "TP102,#FLG7-11,CRT_H_10,NT5-8,#PWR122,#PWR138,#PWR141-142,#PWR144,#PWR147,#PWR154-156,#PWR158-160,#PWR165-167,#PWR174-175,#PWR184-191",
     "variants": []
   },
   "sheets": [

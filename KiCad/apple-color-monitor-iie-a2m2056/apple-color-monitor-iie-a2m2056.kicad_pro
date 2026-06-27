@@ -487,7 +487,7 @@
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "single_global_label": "warning",
       "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
@@ -709,7 +709,7 @@
         "uuid": "f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#FLG7-11,CRT_H_10,NT5-8,#PWR122,#PWR138,#PWR141-142,#PWR144,#PWR147,#PWR154-156,#PWR158-160,#PWR165-167,#PWR174-175,#PWR184-191",
     "variants": []
   },
   "sheets": [

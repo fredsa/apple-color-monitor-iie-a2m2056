@@ -26,8 +26,8 @@ Component layout
     <td>Top side</td>
   </tr>
   <tr>
-    <td><img width="408px" src="photos/main-pcb-bottom-flipped.png"></td>
-    <td><img width="408px" src="photos/main-pcb-top.png"></td>
+    <td><img width="408px" src="photos/main-pcb-bottom-flipped.jpg"></td>
+    <td><img width="408px" src="photos/main-pcb-top.jpg"></td>
   </tr>
 </table>
 

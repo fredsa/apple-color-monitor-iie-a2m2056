@@ -31440,9 +31440,9 @@
 		)
 		(uuid "7a664635-cf0d-4a35-99b5-e5645c7c979a")
 	)
-	(text "Please check that you have the latest version of this schematic from:\nhttps://github.com/fredsa/apple-color-monitor-iie-a2m2056\n\nFlyback and other transformer configuration may be drawn incorrectly.\nReport any corrections to this schematic to: fredsa@gmail.com\n\nIf you found this schematic helful, please send an me email to let me know how it went."
+	(text "Please check that you have the latest version of this schematic from:\nhttps://github.com/fredsa/apple-color-monitor-iie-a2m2056\n\nFlyback and other transformer configurations may be drawn incorrectly.\nReport any corrections to this schematic to: fredsa@gmail.com\n\nI've spent many hours recreating this schematic. If you found this schematic\nto be helful, please send me an email to let me know how it went.\n\nVoltages are shown as measured, but may not represent correct factory\ncalibration due to incorrect adjustments made by a previous owner."
 		(exclude_from_sim no)
-		(at 525.272 368.3 0)
+		(at 525.272 363.474 0)
 		(effects
 			(font
 				(size 1.27 1.27)

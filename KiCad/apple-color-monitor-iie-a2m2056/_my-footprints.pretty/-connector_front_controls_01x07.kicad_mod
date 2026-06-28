@@ -1,0 +1,202 @@
+(footprint "-connector_front_controls_01x07"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Molex SPOX Connector System, 5267-07A, 7 Pins per row (http://www.molex.com/pdm_docs/sd/022035035_sd.pdf)")
+	(tags "connector Molex SPOX vertical")
+	(property "Reference" "CN4_FRONT1"
+		(at 7.5 -4.3 0)
+		(layer "F.SilkS")
+		(uuid "a7bca6eb-be16-4fe9-b96b-62ce9e9058ea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CN"
+		(at 7.5 3.01 0)
+		(layer "F.Fab")
+		(uuid "408bc98f-cd34-4650-8e83-852f23bf215b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "deba7d54-b486-4748-9654-b5c05e33e08e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Generic connector, single row, 01x07, script generated"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "11f639b5-b228-45c8-84b5-f465531fd48a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "KiLib_Generator" "connector/Molex"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3da667a8-322e-4799-abea-5de4e045cbc2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "Connector*:*_1x??_*")
+	(sheetname "/")
+	(sheetfile "apple-color-monitor-iie-a2m2056.kicad_sch")
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -2 -2)
+		(end 26 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "9f656a74-c4f2-46e9-9b19-81a3ab07e19d")
+	)
+	(fp_rect
+		(start -1.889756 -1.883452)
+		(end 25.871214 1.871214)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "B.SilkS")
+		(uuid "7b60e1af-2dc2-4cb8-8094-7c5f830bbb52")
+	)
+	(fp_rect
+		(start -2.5 -2.5)
+		(end 26.5 2.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "4ea356be-9dd4-4deb-97be-ca223c2c9a9e")
+	)
+	(fp_line
+		(start -0.5 1.8)
+		(end 0 1.092893)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0c07c912-031e-4021-8684-b149227337e0")
+	)
+	(fp_line
+		(start 0 1.092893)
+		(end 0.5 1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d21eae1d-22f5-4f03-a5db-dfeafd1ff427")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 7.5 -2.4 0)
+		(layer "F.Fab")
+		(uuid "bbd34f2b-1e06-4ac9-8172-921deb6c0543")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 1.7 1.85)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.147059)
+		(uuid "fcb4dfed-157d-4f36-9040-abe905e03244")
+	)
+	(pad "2" thru_hole oval
+		(at 4 0)
+		(size 1.7 1.85)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "317f67e0-1e04-4902-a5c9-beb1c7219e7c")
+	)
+	(pad "3" thru_hole oval
+		(at 8 0)
+		(size 1.7 1.85)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "389955f9-99a1-40e4-a80c-b9863eeeb0ba")
+	)
+	(pad "4" thru_hole oval
+		(at 12 0)
+		(size 1.7 1.85)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "64125ef7-d737-4fbf-a61c-16750bb60bce")
+	)
+	(pad "5" thru_hole oval
+		(at 16 0)
+		(size 1.7 1.85)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bddb8017-00e3-45cd-93a4-5fa31bfdf3c3")
+	)
+	(pad "6" thru_hole oval
+		(at 20 0)
+		(size 1.7 1.85)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b6fd64ce-684c-4c40-94fc-be6afd1a9098")
+	)
+	(pad "7" thru_hole oval
+		(at 24 0)
+		(size 1.7 1.85)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2e9fbda6-bc15-4ea6-9907-dad7de3bfb3e")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_SPOX_5267-07A_1x07_P2.50mm_Vertical.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -13,6 +13,145 @@
 		(comment 2 "CHASSIS NO.: TWE 3003-705-910, REV: 4")
 	)
 	(lib_symbols
+		(symbol "+12V_1"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR016942"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CTRL_+12V"
+				(at 0 3.048 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+12V_1_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_1_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "-my-symbols:-crt-neck-connector"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -8634,7 +8773,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "CN5"
-				(at 4.318 6.35 0)
+				(at 3.048 5.842 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -8643,10 +8782,11 @@
 					)
 				)
 			)
-			(property "Value" "Text/Gfx"
-				(at 4.318 3.81 0)
+			(property "Value" "CN"
+				(at 3.048 3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -9390,6 +9530,197 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Conn_01x02_Pin_6"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "CN15"
+				(at 2.794 5.588 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR LED"
+				(at 2.54 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x02_Pin_6_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.27 2.54)
+					(end 3.81 -5.08)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 3.81)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -2.54 180)
+					(length 3.81)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Conn_01x02_Socket_1"
 			(pin_names
 				(offset 1.016)
@@ -9765,6 +10096,202 @@
 					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Conn_01x02_Socket_3"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "LED_CN15"
+				(at -8.89 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Conn_01x02_Socket"
+				(at 1.27 -2.5399 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x02_Socket_3_1_1"
+				(rectangle
+					(start -3.81 2.54)
+					(end -1.27 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -16112,6 +16639,289 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:LED_Series"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED_Series"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -2.54 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at -2.54 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Several LEDs in series"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_Series_0_1"
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.683 -1.27) (xy -3.683 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.302 1.397) (xy -1.778 2.921) (xy -2.54 2.921) (xy -1.778 2.921) (xy -1.778 2.159)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 1.397) (xy -0.508 2.921) (xy -1.27 2.921) (xy -0.508 2.921) (xy -0.508 2.159)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.143 -1.27) (xy -1.143 1.27) (xy -3.683 0) (xy -1.143 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.127 0) (xy -0.127 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.143 -1.27) (xy 1.143 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 1.397) (xy 3.048 2.921) (xy 2.286 2.921) (xy 3.048 2.921) (xy 3.048 2.159)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 1.397) (xy 4.318 2.921) (xy 3.556 2.921) (xy 4.318 2.921) (xy 4.318 2.159)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.27) (xy 3.683 1.27) (xy 1.143 0) (xy 3.683 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_Series_1_1"
+				(pin passive line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -29866,6 +30676,122 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:GND3"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR0142"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CTRL"
+				(at -0.0099 -1.6485 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 0.3048 0.3048)
+						(thickness 0.0635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND3\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND3_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND3_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GNDPWR"
 			(power global)
 			(pin_numbers
@@ -30461,6 +31387,18 @@
 		(uuid "025a82d1-2bea-47d0-b3c7-ec1324e7551a")
 	)
 	(rectangle
+		(start 13.97 196.85)
+		(end 46.99 212.09)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "04d5a8e0-4475-4d19-8c77-736a368fb725")
+	)
+	(rectangle
 		(start 250.19 127)
 		(end 257.81 138.43)
 		(stroke
@@ -30473,7 +31411,7 @@
 		(uuid "188da8fa-64b1-4b41-9a74-f6ca76883550")
 	)
 	(rectangle
-		(start 16.51 15.24)
+		(start 13.97 15.24)
 		(end 111.76 66.04)
 		(stroke
 			(width 0)
@@ -30485,8 +31423,8 @@
 		(uuid "1f27d7fa-98aa-446c-96ec-1b37fbe25621")
 	)
 	(rectangle
-		(start 16.51 196.85)
-		(end 72.39 209.55)
+		(start 48.26 196.85)
+		(end 72.39 212.09)
 		(stroke
 			(width 0)
 			(type default)
@@ -30534,7 +31472,7 @@
 		(uuid "4a906681-5a91-4d32-9e8a-f629330e0620")
 	)
 	(rectangle
-		(start 16.51 68.58)
+		(start 13.97 68.58)
 		(end 111.76 101.6)
 		(stroke
 			(width 0)
@@ -30645,7 +31583,7 @@
 		(uuid "b74bd756-64ae-445a-8e7a-9f812895ed1b")
 	)
 	(rectangle
-		(start 16.51 104.14)
+		(start 13.97 104.14)
 		(end 72.39 195.58)
 		(stroke
 			(width 0)
@@ -30665,16 +31603,6 @@
 			)
 		)
 		(uuid "0169eb9f-154c-4990-b122-ea6cfc8c2d00")
-	)
-	(text "0V"
-		(exclude_from_sim no)
-		(at 24.13 254.508 0)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-		)
-		(uuid "01cd5911-ca0d-4212-917c-312e8a3c3196")
 	)
 	(text ""
 		(exclude_from_sim no)
@@ -31302,7 +32230,7 @@
 	)
 	(text "PWB-CONTROL PCB\n"
 		(exclude_from_sim no)
-		(at 27.178 193.548 0)
+		(at 24.638 193.548 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -31693,16 +32621,6 @@
 		)
 		(uuid "9be72321-6940-40ae-a580-c7efecab05ae")
 	)
-	(text "13.3V\n0.4V Pk-Pk"
-		(exclude_from_sim no)
-		(at 19.05 223.52 0)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-		)
-		(uuid "9c3ff956-1641-431b-aa44-8fee8e0ea40e")
-	)
 	(text "0.3V\n0.08 Pk-Pk"
 		(exclude_from_sim no)
 		(at 173.99 93.98 0)
@@ -31752,6 +32670,16 @@
 			)
 		)
 		(uuid "a0d57fde-ed34-4eaf-89c6-72fc1b6ef1d4")
+	)
+	(text "POWER LED PCB"
+		(exclude_from_sim no)
+		(at 23.368 210.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a1ce95d6-8533-480e-8d2e-4b1a59d5754f")
 	)
 	(text "JUMPER SANDBOX"
 		(exclude_from_sim no)
@@ -31825,7 +32753,7 @@
 	)
 	(text "VIDEO AMPLICATION"
 		(exclude_from_sim no)
-		(at 27.432 64.262 0)
+		(at 24.892 64.262 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -31975,7 +32903,7 @@
 	)
 	(text "X-RAY PROTECTION"
 		(exclude_from_sim no)
-		(at 27.94 99.568 0)
+		(at 24.638 99.568 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -32175,7 +33103,7 @@
 	)
 	(text "TEXT/GFX SWITCH PCB"
 		(exclude_from_sim no)
-		(at 27.432 207.264 0)
+		(at 60.452 210.566 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -33201,6 +34129,12 @@
 		(uuid "01801184-0a02-4ed2-a275-5712771f516b")
 	)
 	(junction
+		(at 30.48 203.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "018fe4d1-c17f-46db-9231-0184ce1c8c59")
+	)
+	(junction
 		(at 303.53 302.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -33229,6 +34163,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "05a4b6ba-fd0a-494b-b0dc-aa394394d1cb")
+	)
+	(junction
+		(at 54.61 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "061653d5-449e-4e21-aa86-ef673e1525e3")
 	)
 	(junction
 		(at 251.46 182.88)
@@ -33487,6 +34427,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "24f59b7e-2128-4e5d-9a06-7de1cda8f521")
+	)
+	(junction
+		(at 45.72 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "252df21b-47c6-466e-9430-127cc79fdd77")
 	)
 	(junction
 		(at 86.36 38.1)
@@ -33813,10 +34759,10 @@
 		(uuid "4e0e01e4-898e-4753-9500-0b0c5fd08bee")
 	)
 	(junction
-		(at 45.72 177.8)
+		(at 60.96 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4eea1078-74f2-4ba1-8623-13bd55d4b881")
+		(uuid "501002c8-5ea8-4de7-9998-0f53f36c4494")
 	)
 	(junction
 		(at 346.71 38.1)
@@ -34455,7 +35401,7 @@
 		(uuid "98959410-3463-4116-a12b-92a54df4ff27")
 	)
 	(junction
-		(at 22.86 255.27)
+		(at 20.32 255.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "992106f9-55df-483c-9a96-278e1179730d")
@@ -34491,16 +35437,16 @@
 		(uuid "9c75d4bb-c118-4bad-bf0b-640f3344d707")
 	)
 	(junction
+		(at 19.05 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9df0e3bf-c8a1-4497-bf10-411f8c0341f9")
+	)
+	(junction
 		(at 195.58 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e67e282-38ee-436e-93f5-1a11ac91d389")
-	)
-	(junction
-		(at 43.18 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9e8bcc16-c511-4625-ba36-c2bb84067b14")
 	)
 	(junction
 		(at 478.79 287.02)
@@ -34545,6 +35491,12 @@
 		(uuid "a3776dda-92de-4607-86c4-fde372913bf1")
 	)
 	(junction
+		(at 52.07 191.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3d2b714-ba2b-4a84-af07-89b09dc3c05f")
+	)
+	(junction
 		(at 167.64 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -34555,12 +35507,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6f8181a-a75e-4eba-a9e9-eef5fd2eafb1")
-	)
-	(junction
-		(at 19.05 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a7cbbf65-45c6-466e-969f-9469d1c13e8a")
 	)
 	(junction
 		(at 508 234.95)
@@ -34669,6 +35615,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b246d6db-27d1-4368-bc76-6a552c19ee3d")
+	)
+	(junction
+		(at 38.1 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b34b8f21-fc6b-4253-9206-d7bfb12586c3")
 	)
 	(junction
 		(at 481.33 175.26)
@@ -34917,6 +35869,12 @@
 		(uuid "d0a3d94d-1404-4ed0-83d8-91578b9d88df")
 	)
 	(junction
+		(at 43.18 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0af253d-7ca3-4786-9dd3-c38007c94ff6")
+	)
+	(junction
 		(at 382.27 207.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -34975,6 +35933,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4998b3c-fda7-44cb-9b16-d13a98c29ebe")
+	)
+	(junction
+		(at 60.96 191.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4f3549c-b058-409a-90e8-07432280940a")
 	)
 	(junction
 		(at 414.02 44.45)
@@ -35133,16 +36097,16 @@
 		(uuid "e5b1a3bf-c034-485a-b9d2-3628e682bdbb")
 	)
 	(junction
-		(at 38.1 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e751adc2-2d3d-425e-a0e9-58b198ea3010")
-	)
-	(junction
 		(at 72.39 317.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e899753d-6211-45c3-b0cc-9d43c3476e49")
+	)
+	(junction
+		(at 30.48 205.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8fb1fbb-df76-4040-90aa-bf4b40c1a8a9")
 	)
 	(junction
 		(at 481.33 165.1)
@@ -35750,6 +36714,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 191.77) (xy 38.1 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b39ee15-5b2b-466c-878a-cf01c799932d")
+	)
+	(wire
+		(pts
 			(xy 386.08 290.83) (xy 392.43 290.83)
 		)
 		(stroke
@@ -35948,6 +36922,16 @@
 			(type default)
 		)
 		(uuid "0f7622e6-dfad-4e91-b719-227db2a6f519")
+	)
+	(wire
+		(pts
+			(xy 31.75 124.46) (xy 29.21 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f8cd7cb-a768-48fe-8db6-62dd42cb5194")
 	)
 	(wire
 		(pts
@@ -36191,16 +37175,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 191.77) (xy 63.5 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1870d224-35d4-43c8-877c-2d9a0bec7816")
-	)
-	(wire
-		(pts
 			(xy 102.87 255.27) (xy 87.63 255.27)
 		)
 		(stroke
@@ -36251,7 +37225,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 205.74) (xy 63.5 205.74)
+			(xy 53.34 205.74) (xy 63.5 205.74)
 		)
 		(stroke
 			(width 0)
@@ -36268,16 +37242,6 @@
 			(type default)
 		)
 		(uuid "19cb0cd0-6f80-4193-9f40-6db1483f226e")
-	)
-	(wire
-		(pts
-			(xy 58.42 203.2) (xy 63.5 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1acc0a44-37a2-4d08-b833-3316cef0fc86")
 	)
 	(wire
 		(pts
@@ -37122,6 +38086,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 130.81) (xy 29.21 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f779dcb-a7ea-4fce-a52c-4b36cd685b14")
+	)
+	(wire
+		(pts
 			(xy 356.87 133.35) (xy 356.87 140.97)
 		)
 		(stroke
@@ -37279,6 +38253,16 @@
 			(type default)
 		)
 		(uuid "3674dbee-7d60-4203-a3d7-4931751b3760")
+	)
+	(wire
+		(pts
+			(xy 21.59 124.46) (xy 24.13 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3675a4f5-b3f7-4aa2-8c0f-7415be3ca500")
 	)
 	(wire
 		(pts
@@ -37743,6 +38727,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 189.23) (xy 43.18 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4548f087-0b2f-4b8f-9b75-07432b926e2e")
+	)
+	(wire
+		(pts
 			(xy 138.43 48.26) (xy 146.05 48.26)
 		)
 		(stroke
@@ -37793,6 +38787,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 203.2) (xy 26.67 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4653d2ed-cfea-4515-a30a-dbe7e94ab810")
+	)
+	(wire
+		(pts
 			(xy 334.01 261.62) (xy 341.63 261.62)
 		)
 		(stroke
@@ -37840,6 +38844,16 @@
 			(type default)
 		)
 		(uuid "47de8bad-e8fe-4b59-8b59-70eed0c3dae4")
+	)
+	(wire
+		(pts
+			(xy 60.96 191.77) (xy 63.5 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47e08f40-245f-4b9d-9e85-a5127831f3d1")
 	)
 	(wire
 		(pts
@@ -38473,6 +39487,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 191.77) (xy 52.07 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5816a351-634b-4b3b-a2ea-b113d320d9e7")
+	)
+	(wire
+		(pts
 			(xy 472.44 44.45) (xy 472.44 41.91)
 		)
 		(stroke
@@ -38774,7 +39798,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 255.27) (xy 36.83 255.27)
+			(xy 20.32 255.27) (xy 36.83 255.27)
 		)
 		(stroke
 			(width 0)
@@ -38834,6 +39858,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 191.77) (xy 60.96 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "650a1973-9b26-4728-b307-368414a06444")
+	)
+	(wire
+		(pts
 			(xy 528.32 259.08) (xy 538.48 259.08)
 		)
 		(stroke
@@ -38881,6 +39915,16 @@
 			(type default)
 		)
 		(uuid "65ff9ce1-b6c3-4c83-84c1-21ebd4af1fec")
+	)
+	(wire
+		(pts
+			(xy 30.48 205.74) (xy 45.72 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6656cf78-2eec-4e19-b481-9772846a4829")
 	)
 	(wire
 		(pts
@@ -39505,6 +40549,16 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 130.81) (xy 24.13 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d03742b-4bd8-4a72-8f42-a448e60ccfc6")
+	)
+	(wire
+		(pts
 			(xy 542.29 138.43) (xy 544.83 138.43)
 		)
 		(stroke
@@ -39915,6 +40969,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 205.74) (xy 45.72 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86644f59-0c9c-4792-a955-750afbbf8a4c")
+	)
+	(wire
+		(pts
 			(xy 36.83 48.26) (xy 33.02 48.26)
 		)
 		(stroke
@@ -40315,6 +41379,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 189.23) (xy 60.96 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92c27a9b-1078-4ab9-829c-d283b5eb6748")
+	)
+	(wire
+		(pts
 			(xy 386.08 300.99) (xy 386.08 304.8)
 		)
 		(stroke
@@ -40605,7 +41679,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 203.2) (xy 48.26 205.74)
+			(xy 53.34 203.2) (xy 53.34 205.74)
 		)
 		(stroke
 			(width 0)
@@ -40975,6 +42049,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 203.2) (xy 30.48 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a709f36c-64ab-472a-abc6-5907c048c5cb")
+	)
+	(wire
+		(pts
 			(xy 262.89 314.96) (xy 252.73 314.96)
 		)
 		(stroke
@@ -41012,6 +42096,16 @@
 			(type default)
 		)
 		(uuid "a7bf96aa-ef5a-491d-85ab-a5ed44811123")
+	)
+	(wire
+		(pts
+			(xy 30.48 205.74) (xy 26.67 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7f310fe-fc5d-4154-a0ac-79c799b64dd7")
 	)
 	(wire
 		(pts
@@ -41062,6 +42156,16 @@
 			(type default)
 		)
 		(uuid "a9ff5f23-addf-4cda-a23a-7cfc8dce7237")
+	)
+	(wire
+		(pts
+			(xy 50.8 189.23) (xy 54.61 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa01c3b5-f0d8-47e8-af07-db6a00a4d241")
 	)
 	(wire
 		(pts
@@ -41836,6 +42940,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 184.15) (xy 40.64 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4752538-e07c-4e27-9fab-95b29a7ed4dd")
+	)
+	(wire
+		(pts
 			(xy 455.93 149.86) (xy 455.93 156.21)
 		)
 		(stroke
@@ -41993,6 +43107,16 @@
 			(type default)
 		)
 		(uuid "c8011691-87b9-4e94-a271-21beffcd1d7e")
+	)
+	(wire
+		(pts
+			(xy 40.64 184.15) (xy 40.64 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c84c6eaf-f526-4d13-96ba-d382f42df162")
 	)
 	(wire
 		(pts
@@ -42785,6 +43909,16 @@
 			(type default)
 		)
 		(uuid "df90adbe-e64c-41de-a292-3a05145247c9")
+	)
+	(wire
+		(pts
+			(xy 38.1 186.69) (xy 33.02 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfa7f763-bc6f-4604-84b2-7721f6fdcd37")
 	)
 	(wire
 		(pts
@@ -45530,6 +46664,86 @@
 		(uuid "fb449e43-13f9-4d7a-9717-de34e3b481b4")
 	)
 	(symbol
+		(lib_name "Conn_01x02_Pin_6")
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 29.21 184.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "004d7f30-e62e-4025-80dc-256cb5b63782")
+		(property "Reference" "CN15"
+			(at 32.004 178.562 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR LED"
+			(at 31.75 180.594 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
+			(at 29.21 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 29.21 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8159ae23-240e-4890-8c5d-bbd5e5d6c023")
+		)
+		(pin "1"
+			(uuid "30f4b1b9-ffb3-40b5-842d-217be3a3bac2")
+		)
+		(instances
+			(project "apple-color-monitor-iie-a2m2056"
+				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
+					(reference "CN15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_BJT:Q_NPN_ECB")
 		(at 514.35 49.53 0)
 		(unit 1)
@@ -46131,85 +47345,6 @@
 			(project "apple-color-monitor-iie-a2m2056"
 				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
 					(reference "T205")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDREF")
-		(at 30.48 170.18 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "03628367-b7fa-40ba-a173-9260aa7b24e2")
-		(property "Reference" "#PWR0100"
-			(at 30.48 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDREF"
-			(at 31.496 169.672 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 30.48 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 30.48 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7ca109c7-c6c8-4eb8-98f1-f2ceb174420e")
-		)
-		(instances
-			(project "apple-color-monitor-iie-a2m2056"
-				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
-					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -50074,6 +51209,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 52.07 191.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "112bd99a-e7d7-485d-a6d4-2291b04c9f51")
+		(property "Reference" "#FLG018"
+			(at 52.07 189.865 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 52.0843 188.656 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.508 0.508)
+					(thickness 0.0635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 52.07 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a6cf8eb9-e659-4fe3-9e31-82fea9b73700")
+		)
+		(instances
+			(project "apple-color-monitor-iie-a2m2056"
+				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
+					(reference "#FLG018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x06_Pin")
 		(at 543.56 274.32 0)
 		(unit 1)
@@ -51610,6 +52823,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND3")
+		(at 30.48 205.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "194f17bf-b340-42cf-8020-fd16d7a30a80")
+		(property "Reference" "#PWR0170"
+			(at 30.48 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CTRL"
+			(at 30.4701 207.3885 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.3048 0.3048)
+					(thickness 0.0635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND3\" , ground"
+			(at 30.48 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "655b6933-d92c-4548-9130-997c24e9ebe2")
+		)
+		(instances
+			(project "apple-color-monitor-iie-a2m2056"
+				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
+					(reference "#PWR0170")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 157.48 99.06 0)
 		(unit 1)
@@ -51686,6 +52978,85 @@
 			(project "apple-color-monitor-iie-a2m2056"
 				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
 					(reference "C204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND3")
+		(at 30.48 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19c07f1f-52b7-4c54-bf3e-060382196b8a")
+		(property "Reference" "#PWR0192"
+			(at 30.48 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CTRL"
+			(at 30.4701 171.8285 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.3048 0.3048)
+					(thickness 0.0635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND3\" , ground"
+			(at 30.48 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ad706111-d2d2-4dbb-9ce2-cf727405ac14")
+		)
+		(instances
+			(project "apple-color-monitor-iie-a2m2056"
+				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
+					(reference "#PWR0192")
 					(unit 1)
 				)
 			)
@@ -52650,6 +54021,163 @@
 			(project "apple-color-monitor-iie-a2m2056"
 				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
 					(reference "C139")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+12V_1")
+		(lib_id "power:+12V")
+		(at 21.59 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1f7b8088-d09a-4d65-8657-e91f7d966ee5")
+		(property "Reference" "#PWR016947"
+			(at 21.59 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CTRL +12V"
+			(at 21.59 121.412 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 21.59 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 21.59 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b8a1d1e5-5cc5-4861-9a5e-ff89e7ef03cf")
+		)
+		(instances
+			(project "apple-color-monitor-iie-a2m2056"
+				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
+					(reference "#PWR016947")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND3")
+		(at 19.05 167.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1fe615f1-608c-4123-88af-8b11cf4c3cc8")
+		(property "Reference" "#PWR0193"
+			(at 19.05 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CTRL"
+			(at 19.0401 169.2885 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.3048 0.3048)
+					(thickness 0.0635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 19.05 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 19.05 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND3\" , ground"
+			(at 19.05 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4d24ea85-151c-44af-bbf7-650c4a918800")
+		)
+		(instances
+			(project "apple-color-monitor-iie-a2m2056"
+				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
+					(reference "#PWR0193")
 					(unit 1)
 				)
 			)
@@ -54095,6 +55623,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND3")
+		(at 45.72 177.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25bcdc7a-26ae-4db7-a02b-353c2ceaaaae")
+		(property "Reference" "#PWR0161"
+			(at 45.72 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CTRL"
+			(at 45.7101 179.4485 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.3048 0.3048)
+					(thickness 0.0635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND3\" , ground"
+			(at 45.72 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f79d6fea-0799-4021-9f7d-fce68f78f221")
+		)
+		(instances
+			(project "apple-color-monitor-iie-a2m2056"
+				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
+					(reference "#PWR0161")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 331.47 97.79 0)
 		(unit 1)
@@ -54337,6 +55944,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 26.67 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "270b4a80-9637-424b-8d11-109964db7123")
+		(property "Reference" "NT10"
+			(at 26.67 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie"
+			(at 26.67 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 26.67 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "61307aa2-6cbd-4878-875f-a9ced5974353")
+		)
+		(pin "2"
+			(uuid "99a1bfa6-5486-465e-8d6d-194a18ff745e")
+		)
+		(instances
+			(project "apple-color-monitor-iie-a2m2056"
+				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
+					(reference "NT10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 199.39 160.02 0)
 		(mirror y)
@@ -54414,6 +56101,84 @@
 			(project "apple-color-monitor-iie-a2m2056"
 				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
 					(reference "C212")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 54.61 189.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2723c92a-7e1f-4fae-9c73-653007b54586")
+		(property "Reference" "#FLG017"
+			(at 54.61 187.325 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 54.6243 186.116 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.508 0.508)
+					(thickness 0.0635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 54.61 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "993a2144-85c5-4a21-b6a2-0aceabcb74bc")
+		)
+		(instances
+			(project "apple-color-monitor-iie-a2m2056"
+				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
+					(reference "#FLG017")
 					(unit 1)
 				)
 			)
@@ -55749,6 +57514,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 26.67 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2db699ca-ab41-410a-bf60-51802a015998")
+		(property "Reference" "NT9"
+			(at 26.67 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie"
+			(at 26.67 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 26.67 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5677348c-3480-4968-a1e5-315c22b9a5ab")
+		)
+		(pin "2"
+			(uuid "96b852a1-44ae-447b-9751-4365844edbba")
+		)
+		(instances
+			(project "apple-color-monitor-iie-a2m2056"
+				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
+					(reference "NT9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
 		(at 491.49 276.86 0)
 		(mirror y)
@@ -56809,6 +58654,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDREF")
+		(at 31.75 130.81 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "31c3a4b4-f817-43ea-b39e-f14fb38b0ae2")
+		(property "Reference" "#PWR0158"
+			(at 31.75 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 32.766 130.302 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 31.75 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "14f7e1a8-70be-4361-82c6-3090e7210980")
+		)
+		(instances
+			(project "apple-color-monitor-iie-a2m2056"
+				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
+					(reference "#PWR0158")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 191.77 392.43 180)
 		(unit 1)
@@ -57367,6 +59291,85 @@
 			(project "apple-color-monitor-iie-a2m2056"
 				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
 					(reference "#FLG07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND3")
+		(at 57.15 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34ad835f-70e8-4ff4-b02f-050e9721570a")
+		(property "Reference" "#PWR0159"
+			(at 57.15 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CTRL"
+			(at 57.1401 181.9885 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.3048 0.3048)
+					(thickness 0.0635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND3\" , ground"
+			(at 57.15 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8f5513cb-bcfa-4b88-917d-21276cbd54e7")
+		)
+		(instances
+			(project "apple-color-monitor-iie-a2m2056"
+				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
+					(reference "#PWR0159")
 					(unit 1)
 				)
 			)
@@ -58460,85 +60463,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDREF")
-		(at 60.96 191.77 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3a792257-ecd6-40de-888a-b3eda0709b01")
-		(property "Reference" "#PWR0105"
-			(at 60.96 198.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDREF"
-			(at 61.976 191.262 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 60.96 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "284bcc3f-a4d3-4415-944b-0b2e7a5faf5c")
-		)
-		(instances
-			(project "apple-color-monitor-iie-a2m2056"
-				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
-					(reference "#PWR0105")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 355.6 283.21 0)
 		(unit 1)
@@ -58966,85 +60890,6 @@
 			(project "apple-color-monitor-iie-a2m2056"
 				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
 					(reference "R147")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDREF")
-		(at 38.1 154.94 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3bd3b73f-a162-4581-8f33-68b9aba8c69a")
-		(property "Reference" "#PWR098"
-			(at 38.1 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDREF"
-			(at 39.116 154.432 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.1 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 38.1 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "28e78a9e-87bd-4510-8a94-9252063ad819")
-		)
-		(instances
-			(project "apple-color-monitor-iie-a2m2056"
-				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
-					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -60153,83 +61998,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 54.61 111.76 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4031d421-a072-40ac-aff6-1fd2c74e2d07")
-		(property "Reference" "#PWR0172"
-			(at 54.61 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 54.61 107.95 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 54.61 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 54.61 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 54.61 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "440b788f-90c5-44f6-8e04-66a895b4480b")
-		)
-		(instances
-			(project "apple-color-monitor-iie-a2m2056"
-				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
-					(reference "#PWR0172")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Jumper:Jumper_2_Bridged")
 		(at 353.06 38.1 0)
 		(mirror y)
@@ -60907,7 +62675,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "430d578e-b3c0-4f42-95d4-f8e3f4fdf6cd")
@@ -60934,7 +62702,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "_my-footprints:_R_Axial_P17.0mm"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 56.388 115.57 90)
 			(hide yes)
 			(show_name no)
@@ -61104,7 +62872,7 @@
 	(symbol
 		(lib_name "Conn_01x01_Pin_1")
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 22.86 251.46 270)
+		(at 20.32 251.46 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -61114,7 +62882,7 @@
 		(dnp no)
 		(uuid "44d3f030-cccd-4942-9cfd-ae7f51f930dc")
 		(property "Reference" "TP11"
-			(at 21.59 252.73 0)
+			(at 19.05 252.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -61124,7 +62892,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Pin"
-			(at 21.59 250.8251 90)
+			(at 19.05 250.8251 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -61136,7 +62904,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Pin:Pin_D1.0mm_L10.0mm"
-			(at 22.86 251.46 0)
+			(at 20.32 251.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -61147,7 +62915,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 251.46 0)
+			(at 20.32 251.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -61158,7 +62926,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 22.86 251.46 0)
+			(at 20.32 251.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -63658,7 +65426,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4ae926b8-ff80-46f2-919c-b66262c117fa")
@@ -63685,7 +65453,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "_my-footprints:_Jumper_13mm"
+		(property "Footprint" "_my-footprints:_Jumper_11mm"
 			(at 58.42 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -64600,7 +66368,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 22.86 255.27 0)
+		(at 20.32 255.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -64610,7 +66378,7 @@
 		(dnp no)
 		(uuid "4db2ef41-eca8-4732-8a04-b47a5b9da0d6")
 		(property "Reference" "#PWR027"
-			(at 22.86 261.62 0)
+			(at 20.32 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -64621,7 +66389,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 21.844 254.762 0)
+			(at 19.304 254.762 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -64632,7 +66400,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 255.27 0)
+			(at 20.32 255.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -64643,7 +66411,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 255.27 0)
+			(at 20.32 255.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -64654,7 +66422,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 22.86 255.27 0)
+			(at 20.32 255.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -67305,7 +69073,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "56b1ced8-468e-495f-97d4-ed89b237edcb")
@@ -67332,7 +69100,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "_my-footprints:_R_Axial_P17.0mm"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 47.752 146.05 90)
 			(hide yes)
 			(show_name no)
@@ -67913,83 +69681,6 @@
 			(project "apple-color-monitor-iie-a2m2056"
 				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
 					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 49.53 142.24 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5ac74809-6081-4709-be28-90bfaaed1e67")
-		(property "Reference" "#PWR0173"
-			(at 49.53 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 49.53 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.53 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 49.53 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "03f72341-8923-4aa4-a420-429456813962")
-		)
-		(instances
-			(project "apple-color-monitor-iie-a2m2056"
-				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
-					(reference "#PWR0173")
 					(unit 1)
 				)
 			)
@@ -69094,6 +70785,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 24.13 203.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5ee8d7a7-44c4-43bc-bbbb-18378eef2487")
+		(property "Reference" "NT6"
+			(at 24.13 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie"
+			(at 24.13 201.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 24.13 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cae38c3e-ac7b-49f2-aa88-4c645ce939da")
+		)
+		(pin "2"
+			(uuid "36b64b78-eb78-434a-82a2-56a7ba7eb037")
+		)
+		(instances
+			(project "apple-color-monitor-iie-a2m2056"
+				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
+					(reference "NT6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
 		(at 102.87 275.59 0)
 		(mirror y)
@@ -69262,7 +71033,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5f5e7b2b-1431-4856-a1c8-8b26a1b8115d")
@@ -69289,7 +71060,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "_my-footprints:_R_Axial_P17.0mm"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 32.258 158.75 90)
 			(hide yes)
 			(show_name no)
@@ -69571,6 +71342,84 @@
 			(project "apple-color-monitor-iie-a2m2056"
 				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
 					(reference "#PWR0154")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+12V_1")
+		(lib_id "power:+12V")
+		(at 30.48 154.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "60b22e04-27be-49f9-85cb-107d123faf14")
+		(property "Reference" "#PWR016944"
+			(at 30.48 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CTRL +12V"
+			(at 30.48 151.892 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 30.48 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "32789edf-b759-41a5-94b6-4bebf4518b1d")
+		)
+		(instances
+			(project "apple-color-monitor-iie-a2m2056"
+				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
+					(reference "#PWR016944")
 					(unit 1)
 				)
 			)
@@ -70473,6 +72322,84 @@
 		)
 	)
 	(symbol
+		(lib_name "+12V_1")
+		(lib_id "power:+12V")
+		(at 30.48 203.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "649d7617-7396-4299-879e-a7eb7affb4a5")
+		(property "Reference" "#PWR016948"
+			(at 30.48 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CTRL +12V"
+			(at 30.48 200.152 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 30.48 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3a254b8e-7dba-46e8-8bda-70de0e082af6")
+		)
+		(instances
+			(project "apple-color-monitor-iie-a2m2056"
+				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
+					(reference "#PWR016948")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 299.72 38.1 90)
 		(unit 1)
@@ -71299,17 +73226,16 @@
 		(lib_name "R_Potentiometer_4")
 		(lib_id "Device:R_Potentiometer")
 		(at 57.15 176.53 0)
-		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "681fd0fd-80d9-47db-b694-49a30fbebe32")
 		(property "Reference" "VR605"
-			(at 51.308 179.324 90)
+			(at 51.308 173.736 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -71320,7 +73246,7 @@
 			)
 		)
 		(property "Value" "TINT"
-			(at 53.848 178.054 90)
+			(at 53.848 175.006 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -71330,7 +73256,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "_my-footprints:_Pot_rear"
+		(property "Footprint" "_my-footprints:_Pot_front"
 			(at 57.15 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -71738,85 +73664,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDREF")
-		(at 45.72 177.8 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6b96bf2f-98ad-487f-aa43-dc12e661642d")
-		(property "Reference" "#PWR0101"
-			(at 45.72 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDREF"
-			(at 46.736 177.292 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 45.72 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 45.72 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "be986c58-d912-4f27-8ffa-63af7ab0d2cf")
-		)
-		(instances
-			(project "apple-color-monitor-iie-a2m2056"
-				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
-					(reference "#PWR0101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 88.9 374.65 270)
 		(mirror x)
@@ -71909,7 +73756,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6be140d6-f5d3-43b9-948a-280a315fffff")
-		(property "Reference" "CN5_FRONT1"
+		(property "Reference" "FRONT_CN5"
 			(at 59.69 199.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -71974,7 +73821,7 @@
 		(instances
 			(project "apple-color-monitor-iie-a2m2056"
 				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
-					(reference "CN5_FRONT1")
+					(reference "FRONT_CN5")
 					(unit 1)
 				)
 			)
@@ -74294,6 +76141,163 @@
 		)
 	)
 	(symbol
+		(lib_name "+12V_1")
+		(lib_id "power:+12V")
+		(at 54.61 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "791a8b5c-22b9-40ea-9921-18712c7b2175")
+		(property "Reference" "#PWR016946"
+			(at 54.61 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CTRL +12V"
+			(at 54.61 108.712 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 54.61 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "190cd746-9a70-4ad5-a517-80ee50bcf6b1")
+		)
+		(instances
+			(project "apple-color-monitor-iie-a2m2056"
+				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
+					(reference "#PWR016946")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND3")
+		(at 60.96 191.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "795a300a-15f0-4e34-881f-ccfff9a8c11d")
+		(property "Reference" "#PWR0142"
+			(at 60.96 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CTRL"
+			(at 60.9501 193.4185 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.3048 0.3048)
+					(thickness 0.0635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND3\" , ground"
+			(at 60.96 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fcb2ea27-ee42-4f12-a8a2-ff3606e6775e")
+		)
+		(instances
+			(project "apple-color-monitor-iie-a2m2056"
+				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
+					(reference "#PWR0142")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 303.53 308.61 0)
 		(mirror x)
@@ -74611,6 +76615,85 @@
 			(project "apple-color-monitor-iie-a2m2056"
 				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
 					(reference "C902")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND3")
+		(at 43.18 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e171a90-68ec-4a2b-89fe-6c6080acaca9")
+		(property "Reference" "#PWR0196"
+			(at 43.18 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CTRL"
+			(at 43.1701 126.1085 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.3048 0.3048)
+					(thickness 0.0635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND3\" , ground"
+			(at 43.18 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e065f2d9-685e-4048-815e-d87ce981fa6a")
+		)
+		(instances
+			(project "apple-color-monitor-iie-a2m2056"
+				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
+					(reference "#PWR0196")
 					(unit 1)
 				)
 			)
@@ -75025,6 +77108,88 @@
 			(project "apple-color-monitor-iie-a2m2056"
 				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
 					(reference "C206")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 46.99 189.23 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7fc7a45a-fad4-45f3-bb1c-0574002b3757")
+		(property "Reference" "R606"
+			(at 44.45 189.23 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 45.7201 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 46.99 187.452 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 46.99 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2c219b26-5e32-4f52-bb2d-51d0ef79c2fc")
+		)
+		(pin "1"
+			(uuid "7e811497-4817-408f-8113-6489450ba674")
+		)
+		(instances
+			(project "apple-color-monitor-iie-a2m2056"
+				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
+					(reference "R606")
 					(unit 1)
 				)
 			)
@@ -76554,6 +78719,85 @@
 			(project "apple-color-monitor-iie-a2m2056"
 				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
 					(reference "C202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND3")
+		(at 38.1 154.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86b4dfe7-1157-477d-a12f-338a22f73e12")
+		(property "Reference" "#PWR0195"
+			(at 38.1 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CTRL"
+			(at 38.0901 156.5885 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.3048 0.3048)
+					(thickness 0.0635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND3\" , ground"
+			(at 38.1 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6f305783-21de-4ef8-9fdc-bc46117c49c3")
+		)
+		(instances
+			(project "apple-color-monitor-iie-a2m2056"
+				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
+					(reference "#PWR0195")
 					(unit 1)
 				)
 			)
@@ -79946,6 +82190,7 @@
 		)
 	)
 	(symbol
+		(lib_name "+12V_1")
 		(lib_id "power:+12V")
 		(at 60.96 189.23 0)
 		(unit 1)
@@ -79956,7 +82201,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "994e02c5-7ecd-4f76-8cec-56673b862bf6")
-		(property "Reference" "#PWR0169"
+		(property "Reference" "#PWR016942"
 			(at 60.96 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -79967,13 +82212,13 @@
 				)
 			)
 		)
-		(property "Value" "+12V"
-			(at 60.96 185.42 0)
+		(property "Value" "CTRL +12V"
+			(at 60.96 186.182 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 			)
 		)
@@ -80016,7 +82261,7 @@
 		(instances
 			(project "apple-color-monitor-iie-a2m2056"
 				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
-					(reference "#PWR0169")
+					(reference "#PWR016942")
 					(unit 1)
 				)
 			)
@@ -80225,17 +82470,16 @@
 		(lib_name "R_Potentiometer_1")
 		(lib_id "Device:R_Potentiometer")
 		(at 49.53 153.67 0)
-		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9aca0bd0-a4b9-49a7-9a29-aae18016e490")
 		(property "Reference" "VR603"
-			(at 43.688 156.464 90)
+			(at 43.688 150.876 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -80246,7 +82490,7 @@
 			)
 		)
 		(property "Value" "CONTRAST"
-			(at 46.228 157.988 90)
+			(at 46.228 149.352 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -80256,7 +82500,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "_my-footprints:_Pot_rear"
+		(property "Footprint" "_my-footprints:_Pot_front"
 			(at 49.53 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -82547,7 +84791,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 53.34 203.2 0)
+		(at 58.42 203.2 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -82558,7 +84802,7 @@
 		(dnp no)
 		(uuid "a31f9ef1-506b-4a66-9a31-5bb88584503a")
 		(property "Reference" "SW1"
-			(at 53.086 200.152 0)
+			(at 58.166 200.152 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -82569,7 +84813,7 @@
 			)
 		)
 		(property "Value" "SW_SPST"
-			(at 53.086 197.612 0)
+			(at 58.166 197.612 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -82580,7 +84824,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 203.2 0)
+			(at 58.42 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -82591,7 +84835,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 203.2 0)
+			(at 58.42 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -82602,7 +84846,7 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 53.34 203.2 0)
+			(at 58.42 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -84150,7 +86394,7 @@
 		(dnp no)
 		(uuid "ab667a78-231f-437c-acd6-60682e134d32")
 		(property "Reference" "CN4"
-			(at 79.248 169.164 0)
+			(at 79.248 117.856 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -85621,10 +87865,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b0e2f4ec-618b-4d58-a42e-737b999833f1")
 		(property "Reference" "CN5"
-			(at 80.518 196.85 0)
+			(at 79.248 198.882 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -85633,8 +87876,9 @@
 				)
 			)
 		)
-		(property "Value" "Text/Gfx"
-			(at 80.518 199.39 0)
+		(property "Value" "CN"
+			(at 79.248 199.39 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -85686,83 +87930,6 @@
 			(project "apple-color-monitor-iie-a2m2056"
 				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
 					(reference "CN5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 57.15 172.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b1065640-15db-4e3b-8ef2-a67f5832d28c")
-		(property "Reference" "#PWR0170"
-			(at 57.15 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 57.15 168.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 57.15 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bdf99dcc-a565-45cd-be06-ebda743e0a09")
-		)
-		(instances
-			(project "apple-color-monitor-iie-a2m2056"
-				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
-					(reference "#PWR0170")
 					(unit 1)
 				)
 			)
@@ -85846,6 +88013,87 @@
 			(project "apple-color-monitor-iie-a2m2056"
 				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
 					(reference "C125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Series")
+		(at 39.37 203.2 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b1d15e7d-fb65-4707-9a2d-d65ac740c6e3")
+		(property "Reference" "D1"
+			(at 39.116 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR LED"
+			(at 39.37 198.628 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Several LEDs in series"
+			(at 39.37 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "323a7ef4-df2f-4541-b7fc-e0cef4712cfa")
+		)
+		(pin "2"
+			(uuid "95c90147-e7cc-4439-ab34-dd5e20afd4ad")
+		)
+		(instances
+			(project "apple-color-monitor-iie-a2m2056"
+				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -87637,6 +89885,84 @@
 			(project "apple-color-monitor-iie-a2m2056"
 				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
 					(reference "J402")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+12V_1")
+		(lib_id "power:+12V")
+		(at 49.53 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b8b393b6-2faa-47a8-8868-caafe23f7c01")
+		(property "Reference" "#PWR016945"
+			(at 49.53 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CTRL +12V"
+			(at 49.53 139.192 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 49.53 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f0356ec7-bf66-4778-bf92-8a2b82d2ae7f")
+		)
+		(instances
+			(project "apple-color-monitor-iie-a2m2056"
+				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
+					(reference "#PWR016945")
 					(unit 1)
 				)
 			)
@@ -89622,83 +91948,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 30.48 154.94 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c21c7843-867c-4351-b8da-6a4d41c1c04c")
-		(property "Reference" "#PWR0171"
-			(at 30.48 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 30.48 151.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 30.48 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 30.48 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fe12d0f4-c64f-4172-9e3d-062d52a1375e")
-		)
-		(instances
-			(project "apple-color-monitor-iie-a2m2056"
-				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
-					(reference "#PWR0171")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 459.74 40.64 0)
 		(mirror x)
@@ -89950,12 +92199,12 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c3c94f89-aaca-49b0-8645-9216d210cd34")
-		(property "Reference" "CN4_FRONT1"
-			(at 66.04 142.24 90)
+		(property "Reference" "FRONT_CN4"
+			(at 60.96 119.126 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -89977,7 +92226,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "_my-footprints:-connector_front_controls_01x07"
 			(at 68.58 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -90034,7 +92283,7 @@
 		(instances
 			(project "apple-color-monitor-iie-a2m2056"
 				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
-					(reference "CN4_FRONT1")
+					(reference "FRONT_CN4")
 					(unit 1)
 				)
 			)
@@ -90353,85 +92602,6 @@
 			(project "apple-color-monitor-iie-a2m2056"
 				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
 					(reference "COIL_L871")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDREF")
-		(at 49.53 157.48 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c66cb862-6d91-446d-951c-583cd7b9d4a5")
-		(property "Reference" "#PWR099"
-			(at 49.53 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDREF"
-			(at 50.546 156.972 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.53 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 49.53 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "edc8609a-27e7-465b-80fd-62d28ab7b58b")
-		)
-		(instances
-			(project "apple-color-monitor-iie-a2m2056"
-				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
-					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -91314,7 +93484,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c9a77b54-3bda-4fd1-8861-3c920fb55284")
@@ -91341,7 +93511,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "_my-footprints:_Jumper_13mm"
+		(property "Footprint" "_my-footprints:_Jumper_10mm"
 			(at 39.37 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -91879,85 +94049,6 @@
 			(project "apple-color-monitor-iie-a2m2056"
 				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDREF")
-		(at 43.18 124.46 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cd1b4a86-5147-4877-baac-d8631032431c")
-		(property "Reference" "#PWR0102"
-			(at 43.18 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDREF"
-			(at 44.196 123.952 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 43.18 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1cdc212e-e487-4c87-b91e-7ba0b015c5e6")
-		)
-		(instances
-			(project "apple-color-monitor-iie-a2m2056"
-				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
-					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -93328,6 +95419,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 24.13 205.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d0f503a0-a5af-47ab-b338-e157f9f5970d")
+		(property "Reference" "NT8"
+			(at 24.13 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie"
+			(at 24.13 204.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 24.13 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3593a08a-46fd-402e-9c59-8624bec46a9e")
+		)
+		(pin "2"
+			(uuid "c0cd35b0-887c-42bd-8def-0b761426d07d")
+		)
+		(instances
+			(project "apple-color-monitor-iie-a2m2056"
+				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
+					(reference "NT8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND1_2")
 		(lib_id "power:GND1")
 		(at 513.08 62.23 0)
@@ -93479,6 +95650,83 @@
 			(project "apple-color-monitor-iie-a2m2056"
 				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 31.75 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d1d76c7c-ff19-410b-9de9-aa4d104524e4")
+		(property "Reference" "#PWR0169"
+			(at 31.75 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 31.75 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 31.75 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c0b54072-2b6e-4466-a1e5-bca0265f8f31")
+		)
+		(instances
+			(project "apple-color-monitor-iie-a2m2056"
+				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
+					(reference "#PWR0169")
 					(unit 1)
 				)
 			)
@@ -95116,85 +97364,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDREF")
-		(at 19.05 167.64 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "da4f1bd7-8974-4a76-a38e-ec238f482494")
-		(property "Reference" "#PWR0104"
-			(at 19.05 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDREF"
-			(at 20.066 167.132 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 19.05 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 19.05 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 19.05 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "76b8b2f9-748e-4ff9-ad0c-23b9747e4d67")
-		)
-		(instances
-			(project "apple-color-monitor-iie-a2m2056"
-				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
-					(reference "#PWR0104")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 335.28 97.79 0)
 		(mirror y)
@@ -95817,6 +97986,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND3")
+		(at 21.59 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de2c4b96-423b-483b-b53e-fce911fbbaac")
+		(property "Reference" "#PWR0144"
+			(at 21.59 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CTRL"
+			(at 21.5801 132.4585 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.3048 0.3048)
+					(thickness 0.0635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 21.59 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND3\" , ground"
+			(at 21.59 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "11199e77-cb74-4636-b9cb-8ff501fa9dd1")
+		)
+		(instances
+			(project "apple-color-monitor-iie-a2m2056"
+				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
+					(reference "#PWR0144")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 260.35 54.61 180)
 		(unit 1)
@@ -95893,6 +98141,90 @@
 			(project "apple-color-monitor-iie-a2m2056"
 				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
 					(reference "R134")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Conn_01x02_Socket_3")
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 16.51 203.2 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dfd6b1cd-7c1a-4d22-bcec-16c32216ecd5")
+		(property "Reference" "LED_CN15"
+			(at 25.4 199.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 15.24 205.7399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 16.51 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 16.51 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 16.51 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "70b06286-d16e-4eac-a56e-2c1e0ade6916")
+		)
+		(pin "1"
+			(uuid "99639c76-f917-4c67-ac4b-0927bc716cf8")
+		)
+		(instances
+			(project "apple-color-monitor-iie-a2m2056"
+				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
+					(reference "LED_CN15")
 					(unit 1)
 				)
 			)
@@ -96318,6 +98650,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND3")
+		(at 49.53 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e304ae68-6487-42f3-a6f5-73f82540c939")
+		(property "Reference" "#PWR0194"
+			(at 49.53 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CTRL"
+			(at 49.5201 159.1285 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.3048 0.3048)
+					(thickness 0.0635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND3\" , ground"
+			(at 49.53 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0bbb142a-8bae-4598-8d56-c6dfee99abdf")
+		)
+		(instances
+			(project "apple-color-monitor-iie-a2m2056"
+				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
+					(reference "#PWR0194")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 295.91 92.71 0)
 		(unit 1)
@@ -96652,85 +99063,6 @@
 			(project "apple-color-monitor-iie-a2m2056"
 				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
 					(reference "R817")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDREF")
-		(at 57.15 180.34 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e7121869-618f-466b-9452-cff5706b707f")
-		(property "Reference" "#PWR0103"
-			(at 57.15 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDREF"
-			(at 58.166 179.832 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 57.15 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "43ef05c3-494a-492b-ae52-385518f6de92")
-		)
-		(instances
-			(project "apple-color-monitor-iie-a2m2056"
-				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
-					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -97496,17 +99828,16 @@
 		(lib_name "R_Potentiometer_2")
 		(lib_id "Device:R_Potentiometer")
 		(at 54.61 123.19 0)
-		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eb393cf0-3c5c-459e-be6f-e5d1126048b6")
 		(property "Reference" "VR602"
-			(at 48.768 126.492 90)
+			(at 48.768 119.888 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -97517,7 +99848,7 @@
 			)
 		)
 		(property "Value" "BRIGHTNESS"
-			(at 51.308 128.778 90)
+			(at 51.308 117.602 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -97527,7 +99858,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "_my-footprints:_Pot_rear"
+		(property "Footprint" "_my-footprints:_Pot_front"
 			(at 54.61 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -98546,17 +100877,16 @@
 		(lib_name "R_Potentiometer_3")
 		(lib_id "Device:R_Potentiometer")
 		(at 30.48 166.37 0)
-		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ef427cfd-a089-475a-aac4-8ce9811408a3")
 		(property "Reference" "VR604"
-			(at 24.638 169.164 90)
+			(at 24.638 163.83 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -98567,7 +100897,7 @@
 			)
 		)
 		(property "Value" "COLOR"
-			(at 27.178 170.688 90)
+			(at 27.178 163.322 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -98577,7 +100907,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "_my-footprints:_Pot_rear"
+		(property "Footprint" "_my-footprints:_Pot_front"
 			(at 30.48 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -102204,6 +104534,84 @@
 			(project "apple-color-monitor-iie-a2m2056"
 				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
 					(reference "C109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+12V_1")
+		(lib_id "power:+12V")
+		(at 57.15 172.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ff80add2-b287-48b7-abc0-52bcc4b772f3")
+		(property "Reference" "#PWR016943"
+			(at 57.15 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CTRL +12V"
+			(at 57.15 169.672 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 57.15 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e9fce17d-9b6f-4b0a-9e9b-1ed81d0e1d0f")
+		)
+		(instances
+			(project "apple-color-monitor-iie-a2m2056"
+				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
+					(reference "#PWR016943")
 					(unit 1)
 				)
 			)

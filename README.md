@@ -1,8 +1,8 @@
 # Apple ColorMonitor IIe (A2M2056) "S Series"
 
-- KiCad schematic reverse-engineered by Fred Sauer in 2026.
-
-- KiCad and PDF schematic can be found in the `KiCad/` folder.
+KiCad schematic, reverse-engineered by Fred Sauer in 2026.
+Component layout
+- KiCad schematic can be found in the `KiCad/` folder.
 
 <hr>
 
@@ -22,24 +22,36 @@
 <table>
   <caption>Main circuit board (245 x 245 mm)</caption>
   <tr>
-    <td>Top side</td>
     <td>Bottom side (flipped)</td>
+    <td>Top side</td>
   </tr>
   <tr>
-    <td><img width="408px" src="photos/main-pcb-top.png"></td>
     <td><img width="408px" src="photos/main-pcb-bottom-flipped.png"></td>
+    <td><img width="408px" src="photos/main-pcb-top.png"></td>
   </tr>
 </table>
 
 <table>
   <caption>Neck circuit board (72 x 85 mm)</caption>
   <tr>
-    <td>Top side</td>
     <td>Bottom side (flipped)</td>
+    <td>Top side</td>
   </tr>
   <tr>
-    <td><img width="408px" src="photos/neck-pcb-top.jpg"></td>
     <td><img width="408px" src="photos/neck-pcb-bottom-flipped.jpg"></td>
+    <td><img width="408px" src="photos/neck-pcb-top.jpg"></td>
+  </tr>
+</table>
+
+<table>
+  <caption>Front panel control circuit board (132 x 28 mm)</caption>
+  <tr>
+    <td>Bottom side (flipped)</td>
+    <td>Top side</td>
+  </tr>
+  <tr>
+    <td><img width="408px" src="photos/controls-pcb-bottom-flipped.jpg"></td>
+    <td>(top side image not available)</td>
   </tr>
 </table>
 

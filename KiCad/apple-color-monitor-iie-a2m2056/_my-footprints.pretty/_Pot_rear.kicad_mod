@@ -8,7 +8,7 @@
 	(property "Reference" "RV1"
 		(at 0 -3.75 0)
 		(layer "F.SilkS")
-		(uuid "084be404-9889-4822-9986-dc9a86d81020")
+		(uuid "7dcfbebb-3130-4a30-bf0b-864503b865bd")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "R_Potentiometer"
 		(at 0 13.75 0)
 		(layer "F.Fab")
-		(uuid "a28490a2-b680-4f47-b053-950923772ad2")
+		(uuid "3b77e091-fde0-4e15-a0cc-d5a86d3f9d0a")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "4b6e2de8-34a6-433f-b75f-a74692beab4c")
+		(uuid "148e21dd-ca90-425b-8a09-8c27a9e58e66")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +42,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c2761043-226e-40c9-b9f2-dfde53030377")
+		(uuid "57807c9e-f45c-439e-91b3-293b1fbc3cda")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -53,7 +53,7 @@
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "03fa81b2-82e7-4a21-906d-e26f89afca92")
+		(uuid "3383b8a2-72b5-46c7-8490-d37cc3cac137")
 		(effects
 			(font
 				(size 1 1)
@@ -66,7 +66,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2b4f446b-2660-420c-905d-97b35911e081")
+		(uuid "4e64f7da-e470-47aa-a6ad-0e2389ca2121")
 		(effects
 			(font
 				(size 1 1)
@@ -79,7 +79,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9df65d89-0cfc-4a2b-ac13-245e33dc6bc6")
+		(uuid "d2d731ed-7d6a-468f-8124-05fd21c13f9d")
 		(effects
 			(font
 				(size 1 1)
@@ -92,7 +92,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e8b38815-ebd3-4003-b9ae-651b51ab6c93")
+		(uuid "a05fdce7-18f7-4763-b61a-f6f8ffc0730c")
 		(effects
 			(font
 				(size 1 1)
@@ -114,18 +114,18 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "721789f9-8cb8-4ceb-8532-c0eb971b02af")
+		(uuid "c9362b4a-97a9-4a34-af41-7264d119abe4")
 	)
 	(fp_rect
-		(start 5 2)
-		(end 9 7.5)
+		(start 5 3)
+		(end 11.5 6.5)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "1b68e800-e1f9-49da-a530-843c34c83af8")
+		(uuid "8b4bc0fc-3a62-4d22-8398-66a56a46290a")
 	)
 	(fp_rect
 		(start -7.5 -3)
@@ -136,7 +136,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "5f0b7e2d-f114-44cf-adb5-d83202686740")
+		(uuid "fa0ecbbd-8fca-4dfe-8f24-e6bfb18e0743")
 	)
 	(fp_rect
 		(start -7 -2.5)
@@ -147,12 +147,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "00b51fb2-56da-464d-9462-84ce84deaf93")
+		(uuid "ba638427-12ac-4956-b5ef-d647ce9678f7")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 2.5 5 0)
 		(layer "F.Fab")
-		(uuid "99e69256-75ee-4c17-b750-bf47e4fdf61c")
+		(uuid "856474fc-12ec-426a-8228-b0338c92bf91")
 		(effects
 			(font
 				(size 1 1)
@@ -166,7 +166,7 @@
 		(drill 1.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "89ca033b-908d-430b-96db-ea80220a690c")
+		(uuid "1f0f57d7-e1e1-46de-9df0-f22a5dd41d4e")
 	)
 	(pad "2" thru_hole circle
 		(at -0.11 5)
@@ -174,7 +174,7 @@
 		(drill 1.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "62ef0af6-4fe0-4254-815c-3a818d917d5c")
+		(uuid "77fb7390-5233-43fb-ab5c-0668102fc91d")
 	)
 	(pad "3" thru_hole circle
 		(at 0 10)
@@ -182,7 +182,7 @@
 		(drill 1.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "c0a44467-047f-4c33-b4b4-545a0db54f56")
+		(uuid "c347e537-1715-45f4-b4ef-f2b0e4d83466")
 	)
 	(pad "4" thru_hole circle
 		(at -6 2)
@@ -190,7 +190,7 @@
 		(drill 1.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "becfec2e-0124-4219-9de1-7c74df1a1b2d")
+		(uuid "0e878def-bb88-49ae-8848-2524e081add3")
 	)
 	(pad "5" thru_hole circle
 		(at -6 8)
@@ -198,7 +198,7 @@
 		(drill 1.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "c111726e-067f-46bb-b292-190ee9166259")
+		(uuid "db4f0dcb-dc5c-4eb8-b8c4-1726586754c3")
 	)
 	(embedded_fonts no)
 	(model "${KICAD10_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Piher_PT-15-H01_Horizontal.step"

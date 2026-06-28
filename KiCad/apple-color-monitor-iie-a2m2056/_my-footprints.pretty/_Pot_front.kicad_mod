@@ -1,0 +1,237 @@
+(footprint "_Pot_front"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Potentiometer, horizontal, Piher PT-15-H01, http://www.piher-nacesa.com/pdf/14-PT15v03.pdf")
+	(tags "Potentiometer horizontal Piher PT-15-H01")
+	(property "Reference" "VR1"
+		(at -3.5 0 90)
+		(layer "F.SilkS")
+		(uuid "659c63f8-6788-4b58-9d69-35fbb915ffe1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CONTROL"
+		(at -7.5 4.5 90)
+		(layer "F.Fab")
+		(uuid "1703f6ff-6bb4-4999-9fd6-0312ff6cb2a5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5c877c46-3c63-47a2-a8d8-7003137675f2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Potentiometer"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f9bdcef3-cafa-4f3f-8b62-159ca4d6de80")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "KiLib_Generator" "potentiometer/THT"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "25e3e836-cb25-40fd-9e59-5963a5b4f83c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Device" "R"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5f3abe1e-b407-4a5e-898e-d09e33bd26c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Type" "POT"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "68ca32a8-eb70-4343-a632-f0a97e50ddaf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Pins" "1=r0 2=wiper 3=r1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "300d50c4-bd75-47d1-950f-4a77089436bb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "Potentiometer*")
+	(sheetname "/")
+	(sheetfile "apple-color-monitor-iie-a2m2056.kicad_sch")
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -2.142843 -1.50164)
+		(end 5.211639 11.615771)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "7a17ea4f-d005-4b74-b718-367c091ba5a2")
+	)
+	(fp_rect
+		(start 5 3.5)
+		(end 11.5 6.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "1f5f9c59-81be-4fc1-b7d8-d7fb1bf560f0")
+	)
+	(fp_rect
+		(start -13 -4)
+		(end -10 -1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "5f97a528-f691-425c-84a1-056829239060")
+	)
+	(fp_rect
+		(start -13 11)
+		(end -10 14)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "5d54e3c6-1978-443f-8b0d-6ce275a1f3e9")
+	)
+	(fp_rect
+		(start -2.5 -1.843785)
+		(end 5.5 12)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "21143a69-1016-40cf-bfe6-7583c82e35e3")
+	)
+	(fp_rect
+		(start -2 -1.367053)
+		(end 5 11.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "42f68446-83cd-48e0-a2d5-113d5c15e67c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.5 5 270)
+		(layer "F.Fab")
+		(uuid "0e2dcaf6-e0a4-4967-9638-fe0aa8f4593d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.34 2.34)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "275c3d9a-23e1-4b97-9389-008780f71cdb")
+	)
+	(pad "2" thru_hole circle
+		(at -0.11 5)
+		(size 2.34 2.34)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e1a43253-5248-4282-9dae-814d4286c0c4")
+	)
+	(pad "3" thru_hole circle
+		(at 0 10)
+		(size 2.34 2.34)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a1bcf487-7566-4f25-be60-3603be103ba7")
+	)
+	(pad "4" thru_hole circle
+		(at -11.5 -2.5)
+		(size 2.34 2.34)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "573d67d5-436c-43cd-9de8-a5a6edf348cc")
+	)
+	(pad "4" thru_hole circle
+		(at -11.5 12.5)
+		(size 2.34 2.34)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b9e360c4-bb91-4097-86d6-03b3696a83a9")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Piher_PT-15-H01_Horizontal.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

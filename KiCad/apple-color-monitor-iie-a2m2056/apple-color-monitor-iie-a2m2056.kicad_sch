@@ -3183,7 +3183,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -20.32) (xy 2.54 -20.32)
+						(xy 1.27 -22.86) (xy 2.54 -22.86)
 					)
 					(stroke
 						(width 0)
@@ -5138,7 +5138,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -20.32 180)
+					(at 5.08 -22.86 180)
 					(length 2.54)
 					(name ""
 						(effects
@@ -30981,7 +30981,7 @@
 	)
 	(text "18.5V\n1.2V Pk-Pk\n60Hz"
 		(exclude_from_sim no)
-		(at 335.28 257.81 0)
+		(at 336.55 260.35 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -31092,7 +31092,7 @@
 	)
 	(text "13.5V\n0.8V Pk-Pk"
 		(exclude_from_sim no)
-		(at 360.68 257.81 0)
+		(at 361.95 260.35 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -31122,7 +31122,7 @@
 	)
 	(text "-1.1V\n176V Pk-Pk\n15.7kHz"
 		(exclude_from_sim no)
-		(at 323.85 256.54 0)
+		(at 325.12 259.08 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -31674,7 +31674,7 @@
 	)
 	(text "18.4V"
 		(exclude_from_sim no)
-		(at 336.0396 268.3324 0)
+		(at 337.3096 270.8724 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -32354,7 +32354,7 @@
 	)
 	(text "-0.7V\n176V Pk-Pk\n15.7kHz"
 		(exclude_from_sim no)
-		(at 312.42 257.302 0)
+		(at 313.69 259.842 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -33862,6 +33862,12 @@
 		(uuid "57753615-c77d-4067-a396-c8eb06231a29")
 	)
 	(junction
+		(at 486.41 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57fe2df6-fe09-401e-93b6-c065276ce69f")
+	)
+	(junction
 		(at 149.86 331.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -34070,12 +34076,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f65f510-2725-498b-9b05-2ecfa6a23638")
-	)
-	(junction
-		(at 486.41 175.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "70014c38-e7d0-4344-8873-66cdc0d967e0")
 	)
 	(junction
 		(at 185.42 316.23)
@@ -34318,12 +34318,6 @@
 		(uuid "8c391a8c-6c11-4b75-9d14-7be5e570afb3")
 	)
 	(junction
-		(at 340.36 259.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8d8e9bf6-63cb-484a-8317-455f92b319e2")
-	)
-	(junction
 		(at 220.98 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -34414,7 +34408,7 @@
 		(uuid "974529ba-c458-4d4d-9706-062e6aef5874")
 	)
 	(junction
-		(at 342.9 252.73)
+		(at 344.17 255.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "97c62bbf-8c98-4ab7-84a9-06c04ed3eec8")
@@ -34762,7 +34756,7 @@
 		(uuid "c0a9a045-36e9-4f66-82ee-8e52c64b5d8e")
 	)
 	(junction
-		(at 365.76 252.73)
+		(at 367.03 255.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c26419ca-7a9c-4332-85a6-b27550e083aa")
@@ -34840,7 +34834,7 @@
 		(uuid "c91f3b6e-da2e-43e9-8eb9-83266b2675f9")
 	)
 	(junction
-		(at 342.9 259.08)
+		(at 344.17 261.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c99a7e52-57ad-4838-a4d7-f1b66481011c")
@@ -34876,7 +34870,7 @@
 		(uuid "cb589a99-a80d-4407-aaec-c65d3390b57c")
 	)
 	(junction
-		(at 364.49 259.08)
+		(at 365.76 261.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ccc7e02a-b896-4a09-a189-972cbd1365c5")
@@ -34900,7 +34894,7 @@
 		(uuid "cf736ead-3e99-4e36-b8e0-454fe4ed5c4f")
 	)
 	(junction
-		(at 370.84 266.7)
+		(at 372.11 269.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d031db7d-1b2e-4b1b-a8d2-408cda70bbd7")
@@ -34966,7 +34960,7 @@
 		(uuid "d3e661fd-7c02-4401-9897-08f393390e14")
 	)
 	(junction
-		(at 365.76 259.08)
+		(at 367.03 261.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d43b6d30-7f01-4960-a76f-8de6a2c64be3")
@@ -35018,6 +35012,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d8ae18d9-1509-4daa-a401-36427ad0c762")
+	)
+	(junction
+		(at 341.63 261.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d934651b-3f18-4011-b22c-15f18c25eb48")
 	)
 	(junction
 		(at 72.39 330.2)
@@ -35874,7 +35874,7 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 266.7) (xy 370.84 266.7)
+			(xy 365.76 269.24) (xy 372.11 269.24)
 		)
 		(stroke
 			(width 0)
@@ -37155,7 +37155,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 252.73) (xy 369.57 252.73)
+			(xy 367.03 255.27) (xy 370.84 255.27)
 		)
 		(stroke
 			(width 0)
@@ -37195,7 +37195,7 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 252.73) (xy 342.9 259.08)
+			(xy 344.17 255.27) (xy 344.17 261.62)
 		)
 		(stroke
 			(width 0)
@@ -37756,7 +37756,7 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 259.08) (xy 340.36 259.08)
+			(xy 334.01 261.62) (xy 341.63 261.62)
 		)
 		(stroke
 			(width 0)
@@ -38236,7 +38236,7 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 252.73) (xy 347.98 252.73)
+			(xy 344.17 255.27) (xy 349.25 255.27)
 		)
 		(stroke
 			(width 0)
@@ -38496,7 +38496,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 252.73) (xy 365.76 259.08)
+			(xy 367.03 255.27) (xy 367.03 261.62)
 		)
 		(stroke
 			(width 0)
@@ -38617,7 +38617,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 259.08) (xy 342.9 259.08)
+			(xy 341.63 261.62) (xy 344.17 261.62)
 		)
 		(stroke
 			(width 0)
@@ -38657,7 +38657,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 259.08) (xy 325.12 259.08)
+			(xy 323.85 261.62) (xy 326.39 261.62)
 		)
 		(stroke
 			(width 0)
@@ -40268,7 +40268,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 259.08) (xy 370.84 259.08)
+			(xy 367.03 261.62) (xy 372.11 261.62)
 		)
 		(stroke
 			(width 0)
@@ -40828,7 +40828,7 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 259.08) (xy 365.76 259.08)
+			(xy 358.14 261.62) (xy 367.03 261.62)
 		)
 		(stroke
 			(width 0)
@@ -41719,7 +41719,7 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 265.43) (xy 364.49 266.7)
+			(xy 365.76 267.97) (xy 365.76 269.24)
 		)
 		(stroke
 			(width 0)
@@ -42701,7 +42701,7 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 260.35) (xy 364.49 259.08)
+			(xy 365.76 262.89) (xy 365.76 261.62)
 		)
 		(stroke
 			(width 0)
@@ -42761,7 +42761,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 264.16) (xy 340.36 259.08)
+			(xy 341.63 265.43) (xy 341.63 261.62)
 		)
 		(stroke
 			(width 0)
@@ -42862,16 +42862,6 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 259.08) (xy 314.96 259.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e28c41ab-f09c-4391-9980-285385d9570e")
-	)
-	(wire
-		(pts
 			(xy 520.7 170.18) (xy 520.7 175.26)
 		)
 		(stroke
@@ -42939,6 +42929,16 @@
 			(type default)
 		)
 		(uuid "e411f258-0bb5-4c8e-a5ed-7397ecbb0932")
+	)
+	(wire
+		(pts
+			(xy 309.88 261.62) (xy 316.23 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4953d99-4151-48b2-b644-477860884bac")
 	)
 	(wire
 		(pts
@@ -43092,7 +43092,7 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 259.08) (xy 349.25 259.08)
+			(xy 344.17 261.62) (xy 350.52 261.62)
 		)
 		(stroke
 			(width 0)
@@ -49264,84 +49264,6 @@
 		)
 	)
 	(symbol
-		(lib_id "-my-symbols:_VAC_T205")
-		(at 400.05 276.86 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0e077aaf-8734-44a0-aaf0-ddbc732f5bfb")
-		(property "Reference" "#PWR0177"
-			(at 400.05 272.542 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.508 0.508)
-					(thickness 0.0953)
-				)
-			)
-		)
-		(property "Value" "VAC_T205"
-			(at 400.05 271.272 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 400.05 276.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 400.05 276.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VAC\""
-			(at 400.05 276.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "83187fb7-3200-41cf-a3b6-25713807a19f")
-		)
-		(instances
-			(project "apple-color-monitor-iie-a2m2056"
-				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
-					(reference "#PWR0177")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
 		(at 391.16 81.28 0)
 		(mirror y)
@@ -51902,7 +51824,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 318.77 259.08 90)
+		(at 320.04 261.62 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -51913,7 +51835,7 @@
 		(dnp no)
 		(uuid "1be90fe3-2ab0-4223-acbe-1b560cd78784")
 		(property "Reference" "R235"
-			(at 318.77 259.08 90)
+			(at 320.04 261.62 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -51923,7 +51845,7 @@
 			)
 		)
 		(property "Value" "1Ω"
-			(at 318.516 261.112 90)
+			(at 319.786 263.652 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -51933,7 +51855,7 @@
 			)
 		)
 		(property "Footprint" "_my-footprints:_R_Axial_P17.0mm"
-			(at 318.77 257.302 90)
+			(at 320.04 259.842 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51944,7 +51866,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 318.77 259.08 0)
+			(at 320.04 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51955,7 +51877,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 318.77 259.08 0)
+			(at 320.04 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52057,6 +51979,84 @@
 			(project "apple-color-monitor-iie-a2m2056"
 				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
 					(reference "J803")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "-my-symbols:_VAC_T205")
+		(at 400.05 276.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1caaedf3-ac1d-4a3c-85fa-1154770a9dea")
+		(property "Reference" "#PWR0151"
+			(at 400.05 272.542 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.508 0.508)
+					(thickness 0.0953)
+				)
+			)
+		)
+		(property "Value" "+36VAC"
+			(at 400.05 272.288 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 400.05 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 400.05 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VAC\""
+			(at 400.05 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1db7a0ee-65ca-4981-be96-19715c49cdc3")
+		)
+		(instances
+			(project "apple-color-monitor-iie-a2m2056"
+				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
+					(reference "#PWR0151")
 					(unit 1)
 				)
 			)
@@ -55805,7 +55805,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 340.36 267.97 0)
+		(at 341.63 269.24 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -55816,7 +55816,7 @@
 		(dnp no)
 		(uuid "2e2c6431-04fb-47cc-a8f1-7abc0a155279")
 		(property "Reference" "C138"
-			(at 343.662 270.002 90)
+			(at 344.932 271.272 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -55827,7 +55827,7 @@
 			)
 		)
 		(property "Value" "1000µF 25V"
-			(at 345.44 273.05 90)
+			(at 346.71 274.32 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -55838,7 +55838,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P7.50mm"
-			(at 339.3948 271.78 0)
+			(at 340.6648 273.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55849,7 +55849,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 340.36 267.97 0)
+			(at 341.63 269.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55860,7 +55860,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 340.36 267.97 0)
+			(at 341.63 269.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55871,7 +55871,7 @@
 			)
 		)
 		(property "KiLib_Generator" "capacitor/THT/other"
-			(at 340.36 267.97 0)
+			(at 341.63 269.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56142,7 +56142,7 @@
 	)
 	(symbol
 		(lib_id "power:+15V")
-		(at 347.98 252.73 0)
+		(at 349.25 255.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -56152,7 +56152,7 @@
 		(dnp no)
 		(uuid "2e80e2c3-2bb7-4710-a40b-7fe61bb14fff")
 		(property "Reference" "#PWR0121"
-			(at 347.98 256.54 0)
+			(at 349.25 259.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56163,7 +56163,7 @@
 			)
 		)
 		(property "Value" "+18V"
-			(at 347.98 248.92 0)
+			(at 349.25 251.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -56173,7 +56173,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 347.98 252.73 0)
+			(at 349.25 255.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56184,7 +56184,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 347.98 252.73 0)
+			(at 349.25 255.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56195,7 +56195,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 347.98 252.73 0)
+			(at 349.25 255.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -71559,6 +71559,84 @@
 		)
 	)
 	(symbol
+		(lib_id "-my-symbols:_VAC_T205")
+		(at 347.98 365.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "69a16076-bd2b-4ceb-84b2-5debfa89da83")
+		(property "Reference" "#PWR0149"
+			(at 347.98 361.442 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.508 0.508)
+					(thickness 0.0953)
+				)
+			)
+		)
+		(property "Value" "+36VAC"
+			(at 347.98 361.188 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 347.98 365.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 347.98 365.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VAC\""
+			(at 347.98 365.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d4b6d55e-e40b-41cf-9094-6e7650e6449c")
+		)
+		(instances
+			(project "apple-color-monitor-iie-a2m2056"
+				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
+					(reference "#PWR0149")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
 		(at 212.09 163.83 0)
 		(unit 1)
@@ -72489,6 +72567,84 @@
 			(project "apple-color-monitor-iie-a2m2056"
 				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
 					(reference "C513")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "-my-symbols:_VAC_T205")
+		(at 27.94 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6f9f41c1-ea2c-4a66-812f-e7a20c3f1930")
+		(property "Reference" "#PWR0148"
+			(at 27.94 73.152 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.508 0.508)
+					(thickness 0.0953)
+				)
+			)
+		)
+		(property "Value" "+36VAC"
+			(at 27.94 72.898 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VAC\""
+			(at 27.94 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b057d62b-e2e7-4be2-b29a-e6f88f4b47cd")
+		)
+		(instances
+			(project "apple-color-monitor-iie-a2m2056"
+				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
+					(reference "#PWR0148")
 					(unit 1)
 				)
 			)
@@ -75920,7 +76076,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 328.93 259.08 0)
+		(at 330.2 261.62 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -75931,7 +76087,7 @@
 		(dnp no)
 		(uuid "861c5a43-200c-42ef-b894-31351c36a5a8")
 		(property "Reference" "D203"
-			(at 328.93 261.366 0)
+			(at 330.2 263.906 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -75941,7 +76097,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 328.93 262.89 0)
+			(at 330.2 265.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -75952,7 +76108,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-15_P15.24mm_Horizontal"
-			(at 328.93 259.08 0)
+			(at 330.2 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -75963,7 +76119,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 328.93 259.08 0)
+			(at 330.2 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -75974,7 +76130,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 328.93 259.08 0)
+			(at 330.2 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -75985,7 +76141,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 328.93 259.08 0)
+			(at 330.2 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -75996,7 +76152,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 328.93 259.08 0)
+			(at 330.2 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -77835,84 +77991,6 @@
 			(project "apple-color-monitor-iie-a2m2056"
 				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
 					(reference "C114")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "-my-symbols:_VAC_T205")
-		(at 486.41 175.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8e2d6ebc-d4a7-4329-9a07-d8ee5d1e1fb2")
-		(property "Reference" "#PWR0148"
-			(at 486.41 170.942 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.508 0.508)
-					(thickness 0.0953)
-				)
-			)
-		)
-		(property "Value" "VAC_T205"
-			(at 486.41 169.672 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 486.41 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 486.41 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VAC\""
-			(at 486.41 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fed1a36c-7229-4f82-8fb0-82edcda2ddd9")
-		)
-		(instances
-			(project "apple-color-monitor-iie-a2m2056"
-				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
-					(reference "#PWR0148")
 					(unit 1)
 				)
 			)
@@ -84468,7 +84546,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 353.06 259.08 270)
+		(at 354.33 261.62 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -84478,7 +84556,7 @@
 		(dnp no)
 		(uuid "acd76981-25f4-478e-9c56-23851edf2515")
 		(property "Reference" "R173"
-			(at 350.52 259.08 90)
+			(at 351.79 261.62 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -84489,7 +84567,7 @@
 			)
 		)
 		(property "Value" "22Ω 3W"
-			(at 349.504 261.366 90)
+			(at 350.774 263.906 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -84500,7 +84578,7 @@
 			)
 		)
 		(property "Footprint" "_my-footprints:_R_Axial_P27.0mm"
-			(at 353.06 257.302 90)
+			(at 354.33 259.842 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -84511,7 +84589,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 353.06 259.08 0)
+			(at 354.33 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -84522,7 +84600,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 353.06 259.08 0)
+			(at 354.33 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -85252,7 +85330,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 364.49 262.89 0)
+		(at 365.76 265.43 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -85263,7 +85341,7 @@
 		(dnp no)
 		(uuid "afaee38d-77ca-4488-822e-25fdd748dd40")
 		(property "Reference" "C103"
-			(at 367.03 265.43 90)
+			(at 368.3 267.97 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -85274,7 +85352,7 @@
 			)
 		)
 		(property "Value" "C_Small"
-			(at 361.95 264.1662 0)
+			(at 363.22 266.7062 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -85286,7 +85364,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
-			(at 364.49 262.89 0)
+			(at 365.76 265.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -85297,7 +85375,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 364.49 262.89 0)
+			(at 365.76 265.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -85308,7 +85386,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 364.49 262.89 0)
+			(at 365.76 265.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -87787,84 +87865,6 @@
 			(project "apple-color-monitor-iie-a2m2056"
 				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
 					(reference "C505")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "-my-symbols:_VAC_T205")
-		(at 347.98 365.76 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bb1987ad-25f6-4ac2-a113-b9e4b181f794")
-		(property "Reference" "#PWR0151"
-			(at 347.98 361.442 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.508 0.508)
-					(thickness 0.0953)
-				)
-			)
-		)
-		(property "Value" "VAC_T205"
-			(at 347.98 360.172 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 347.98 365.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 347.98 365.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VAC\""
-			(at 347.98 365.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "383de3da-0d89-4dab-adb3-27116b67676b")
-		)
-		(instances
-			(project "apple-color-monitor-iie-a2m2056"
-				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
-					(reference "#PWR0151")
 					(unit 1)
 				)
 			)
@@ -92368,6 +92368,84 @@
 		)
 	)
 	(symbol
+		(lib_id "-my-symbols:_VAC_T205")
+		(at 486.41 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cecb2829-04b4-41aa-95ac-ba93fbb2c057")
+		(property "Reference" "#PWR0147"
+			(at 486.41 170.942 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.508 0.508)
+					(thickness 0.0953)
+				)
+			)
+		)
+		(property "Value" "+36VAC"
+			(at 486.41 170.688 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 486.41 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 486.41 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VAC\""
+			(at 486.41 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a5ab8f6b-1db5-41d8-bdcd-8f73d557c44e")
+		)
+		(instances
+			(project "apple-color-monitor-iie-a2m2056"
+				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
+					(reference "#PWR0147")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 461.01 49.53 270)
 		(mirror x)
@@ -93586,7 +93664,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 370.84 266.7 0)
+		(at 372.11 269.24 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -93597,7 +93675,7 @@
 		(dnp no)
 		(uuid "d2467b93-be2a-4853-9fed-6c8e1e18b3a9")
 		(property "Reference" "#PWR028"
-			(at 370.84 273.05 0)
+			(at 372.11 275.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -93608,7 +93686,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 371.856 266.192 0)
+			(at 373.126 268.732 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -93619,7 +93697,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 370.84 266.7 0)
+			(at 372.11 269.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -93630,7 +93708,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 370.84 266.7 0)
+			(at 372.11 269.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -93641,7 +93719,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 370.84 266.7 0)
+			(at 372.11 269.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -93665,7 +93743,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 369.57 252.73 0)
+		(at 370.84 255.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -93675,7 +93753,7 @@
 		(dnp no)
 		(uuid "d2b96e36-2b26-428d-a988-c54441530822")
 		(property "Reference" "#PWR0114"
-			(at 369.57 256.54 0)
+			(at 370.84 259.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -93686,7 +93764,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 369.57 248.92 0)
+			(at 370.84 251.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -93696,7 +93774,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 369.57 252.73 0)
+			(at 370.84 255.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -93707,7 +93785,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 369.57 252.73 0)
+			(at 370.84 255.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -93718,7 +93796,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 369.57 252.73 0)
+			(at 370.84 255.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -93750,10 +93828,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d3d0a4f6-2e07-4607-8529-dbb1698e7ef8")
 		(property "Reference" "#PWR0146"
 			(at 280.67 245.872 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -93763,8 +93841,8 @@
 				)
 			)
 		)
-		(property "Value" "VAC_T205"
-			(at 280.67 244.602 0)
+		(property "Value" "+36VAC"
+			(at 280.67 245.618 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -93820,7 +93898,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 340.36 271.78 0)
+		(at 341.63 273.05 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -93830,7 +93908,7 @@
 		(dnp no)
 		(uuid "d41419cf-7f77-44f5-ab9d-e5c942cee4c3")
 		(property "Reference" "#PWR021"
-			(at 340.36 278.13 0)
+			(at 341.63 279.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -93841,7 +93919,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 339.344 271.272 0)
+			(at 340.614 272.542 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -93852,7 +93930,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 340.36 271.78 0)
+			(at 341.63 273.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -93863,7 +93941,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 340.36 271.78 0)
+			(at 341.63 273.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -93874,7 +93952,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 340.36 271.78 0)
+			(at 341.63 273.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -95255,86 +95333,8 @@
 		)
 	)
 	(symbol
-		(lib_id "-my-symbols:_VAC_T205")
-		(at 27.94 77.47 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dbbb0747-a0ee-4fea-ad84-f08e14cfa53c")
-		(property "Reference" "#PWR0149"
-			(at 27.94 73.152 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.508 0.508)
-					(thickness 0.0953)
-				)
-			)
-		)
-		(property "Value" "VAC_T205"
-			(at 27.94 71.882 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 27.94 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 27.94 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VAC\""
-			(at 27.94 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "73530b6e-406b-4f95-adc4-e176207b125e")
-		)
-		(instances
-			(project "apple-color-monitor-iie-a2m2056"
-				(path "/f9990f64-afa6-43ac-a297-5d16fc9bbf3c"
-					(reference "#PWR0149")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 365.76 252.73 0)
+		(at 367.03 255.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -95344,7 +95344,7 @@
 		(dnp no)
 		(uuid "dbc9711d-d446-4560-b961-0c0fbbe2b653")
 		(property "Reference" "#FLG012"
-			(at 365.76 250.825 0)
+			(at 367.03 253.365 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -95355,7 +95355,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 365.7743 249.616 0)
+			(at 367.0443 252.156 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -95366,7 +95366,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 365.76 252.73 0)
+			(at 367.03 255.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -95377,7 +95377,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 365.76 252.73 0)
+			(at 367.03 255.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -95388,7 +95388,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 365.76 252.73 0)
+			(at 367.03 255.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -98112,7 +98112,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 370.84 262.89 0)
+		(at 372.11 265.43 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -98123,7 +98123,7 @@
 		(dnp no)
 		(uuid "ec73271b-7d69-4edf-a4cd-ff5656d6d4b0")
 		(property "Reference" "C136"
-			(at 374.396 265.176 90)
+			(at 375.666 267.716 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -98134,7 +98134,7 @@
 			)
 		)
 		(property "Value" "1000µF 16V"
-			(at 376.428 267.716 90)
+			(at 377.698 270.256 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -98145,7 +98145,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
-			(at 369.8748 266.7 0)
+			(at 371.1448 269.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -98156,7 +98156,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 370.84 262.89 0)
+			(at 372.11 265.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -98167,7 +98167,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 370.84 262.89 0)
+			(at 372.11 265.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -98178,7 +98178,7 @@
 			)
 		)
 		(property "KiLib_Generator" "capacitor/THT/other"
-			(at 370.84 262.89 0)
+			(at 372.11 265.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -100810,7 +100810,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 342.9 252.73 0)
+		(at 344.17 255.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -100820,7 +100820,7 @@
 		(dnp no)
 		(uuid "f8992a20-227a-4541-ab9e-81401fb1ce0e")
 		(property "Reference" "#FLG06"
-			(at 342.9 250.825 0)
+			(at 344.17 253.365 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -100831,7 +100831,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 342.9143 249.616 0)
+			(at 344.1843 252.156 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -100842,7 +100842,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 342.9 252.73 0)
+			(at 344.17 255.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -100853,7 +100853,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 342.9 252.73 0)
+			(at 344.17 255.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -100864,7 +100864,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 342.9 252.73 0)
+			(at 344.17 255.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

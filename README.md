@@ -7,6 +7,19 @@
 <hr>
 
 <table>
+  <caption>KiCad schematic</caption>
+  <tr>
+    <td>
+      <a href="apple-color-monitor-iie-a2m2056.svg">apple-color-monitor-iie-a2m2056.svg</a><br>
+      <a href="apple-color-monitor-iie-a2m2056.pdf">apple-color-monitor-iie-a2m2056.pdf</a><br>
+    </td>
+  </tr>
+  <tr>
+    <td><img width="800px" src="apple-color-monitor-iie-a2m2056.svg"></td>
+  </tr>
+</table>
+
+<table>
   <caption>Main circuit board (245 x 245 mm)</caption>
   <tr>
     <td>Top side</td>

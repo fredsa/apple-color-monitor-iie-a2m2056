@@ -7,10 +7,11 @@
 	(title_block
 		(title "Apple ColorMonitor IIe (A2M2056) \"S Series\"")
 		(date "2026-06")
-		(rev "42")
+		(rev "43")
 		(company "Reverse engineered by Fred Sauer, 2026. Published under Apache 2 license.")
-		(comment 1 "Measurements taken from working monitor display color bars on Apple II plus.")
-		(comment 2 "CHASSIS NO.: TWE 3003-705-910, REV: 4")
+		(comment 1 "CHASSIS NO.: TWE 3003-705-910, REV: 4")
+		(comment 2 "Monitor assembled September 1985")
+		(comment 3 "Get the latest version: https://github.com/fredsa/apple-color-monitor-iie-a2m2056 ")
 	)
 	(lib_symbols
 		(symbol "+12V_1"
@@ -32368,7 +32369,7 @@
 		)
 		(uuid "7a664635-cf0d-4a35-99b5-e5645c7c979a")
 	)
-	(text "Please check that you have the latest version of this schematic from:\nhttps://github.com/fredsa/apple-color-monitor-iie-a2m2056\n\nFlyback and other transformer configurations may be drawn incorrectly.\nReport any corrections to this schematic to: fredsa@gmail.com\n\nI've spent many hours recreating this schematic. If you found this schematic\nto be helful, please send me an email to let me know how it went.\n\nVoltages are shown as measured, but may not represent correct factory\ncalibration due to incorrect adjustments made by a previous owner."
+	(text "Please check that you have the latest version of this schematic from:\nhttps://github.com/fredsa/apple-color-monitor-iie-a2m2056\n\nFlyback and other transformer configurations may be drawn incorrectly.\nReport any corrections to this schematic to: fredsa@gmail.com\n\nI've spent many hours recreating this schematic. If you found this schematic\nto be helful, please send me an email to let me know how it went.\n\nVoltage mesasurements taken from working monitor displaying color bars on Apple II plus.\nVotages may differ from factory calibration due to incorrect adjustments made by a previous owner.\n"
 		(exclude_from_sim no)
 		(at 525.272 363.474 0)
 		(effects

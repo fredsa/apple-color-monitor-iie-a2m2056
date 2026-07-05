@@ -15,7 +15,7 @@ Component layout
     </td>
   </tr>
   <tr>
-    <td><img width="800px" src="apple-color-monitor-iie-a2m2056.svg"></td>
+    <td><img width="800" src="apple-color-monitor-iie-a2m2056.svg"></td>
   </tr>
 </table>
 
@@ -26,8 +26,8 @@ Component layout
     <td>Top side</td>
   </tr>
   <tr>
-    <td><img width="408px" src="photos/main-pcb-bottom-flipped.jpg"></td>
-    <td><img width="408px" src="photos/main-pcb-top.jpg"></td>
+    <td><img width="408" src="photos/main-pcb-bottom-flipped.jpg"></td>
+    <td><img width="408" src="photos/main-pcb-top.jpg"></td>
   </tr>
 </table>
 
@@ -38,8 +38,8 @@ Component layout
     <td>Top side</td>
   </tr>
   <tr>
-    <td><img width="408px" src="photos/neck-pcb-bottom-flipped.jpg"></td>
-    <td><img width="408px" src="photos/neck-pcb-top.jpg"></td>
+    <td><img width="408" src="photos/neck-pcb-bottom-flipped.jpg"></td>
+    <td><img width="408" src="photos/neck-pcb-top.jpg"></td>
   </tr>
 </table>
 
@@ -50,7 +50,7 @@ Component layout
     <td>Top side</td>
   </tr>
   <tr>
-    <td><img width="408px" src="photos/controls-pcb-bottom-flipped.jpg"></td>
+    <td><img width="408" src="photos/controls-pcb-bottom-flipped.jpg"></td>
     <td>(top side image not available)</td>
   </tr>
 </table>

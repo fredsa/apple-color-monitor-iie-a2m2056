@@ -1,10 +1,13 @@
 # Apple ColorMonitor IIe (A2M2056) "S Series"
 
 KiCad schematic, reverse-engineered by Fred Sauer in 2026.
-Component layout
-- KiCad schematic can be found in the `KiCad/` folder.
+
+CHASSIS NO.: `TWE 3003-705-910`, REV: `4`
+
+KiCad schematic can be found in the `KiCad/` folder.
 
 <hr>
+
 
 <table>
   <caption>KiCad schematic</caption>

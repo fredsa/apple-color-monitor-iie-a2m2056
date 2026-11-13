@@ -85141,7 +85141,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D1398"
+		(property "Value" "2SD1398"
 			(at 290.83 314.452 0)
 			(show_name no)
 			(do_not_autoplace no)

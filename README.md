@@ -6,6 +6,12 @@ CHASSIS NO.: `TWE 3003-705-910`, REV: `4`
 
 KiCad schematic can be found in the `KiCad/` folder.
 
+## Similar or identical models
+
+- `A2M2056` Apple ColorMonitor IIe "S Series" — This is the actual model that was reverse engineered
+- `A2M6020` Apple ColorMonitor IIe "S Series" — Believed to be similar or identical
+- `A2M4043` Apple ColorMonitor IIe "S Series" — Believed to be similar or identical
+
 <hr>
 
 

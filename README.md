@@ -18,13 +18,22 @@ KiCad schematic can be found in the `KiCad/` folder.
 <table>
   <caption>KiCad schematic</caption>
   <tr>
-    <td>
-      <a href="apple-color-monitor-iie-a2m2056.svg">apple-color-monitor-iie-a2m2056.svg</a><br>
-      <a href="apple-color-monitor-iie-a2m2056.pdf">apple-color-monitor-iie-a2m2056.pdf</a><br>
+    <td style="text-align:center">
+      Download: <a href="apple-color-monitor-iie-a2m2056.svg">SVG</a>,
+      <a href="apple-color-monitor-iie-a2m2056.pdf">PDF</a>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      Project files: <a href="KiCad/">KiCad/</a>
     </td>
   </tr>
   <tr>
     <td><img width="800" src="apple-color-monitor-iie-a2m2056.svg"></td>
+  </tr>
+</table>
+
+<table>
+  <caption>KiCad PCB view</caption>
+  <tr>
+    <td><img width="800" src="photos/kicad-pcb.png"></td>
   </tr>
 </table>
 

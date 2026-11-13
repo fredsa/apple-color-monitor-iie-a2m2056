@@ -32752,9 +32752,9 @@
 		)
 		(uuid "aa123c65-c0eb-451e-a287-9c264d73b396")
 	)
-	(text "VIDEO AMPLICATION"
+	(text "VIDEO AMPLIFICATION"
 		(exclude_from_sim no)
-		(at 24.892 64.262 0)
+		(at 25.4 64.262 0)
 		(effects
 			(font
 				(size 1.27 1.27)
